@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ir.dimyadi.persiancalendar.view.onefive.AddCategoryFragment"
+    android:background="?attr/colorBackground"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/layout_one"
+        android:layout_above="@+id/expadd">
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/exptitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/hint_title"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/expdesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/exptitle"
+            android:minLines="6"
+            android:maxLines="10"
+            android:scrollbars="vertical"
+            android:lines="8"
+            android:gravity="top"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:hint="@string/hint_description" />
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/expamount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expdesc"
+            android:layout_marginTop="15dp"
+            android:inputType="numberDecimal"
+            android:maxLength="12"
+            android:hint="@string/hint_amount" />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expamount"
+            android:textStyle="bold"
+            android:textColor="?attr/colorTextDrawer"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical|center_horizontal|center">
+
+            <TextView
+                android:id="@+id/popcategorytv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/category"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="?attr/colorTextNormal" />
+
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/addcatspinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </RelativeLayout>
+
+    <!--<android.support.v7.widget.AppCompatTextView
+        android:id="@+id/expaddeddatatv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <android.support.v7.widget.ListViewCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/expaddeddatalv"/>!-->
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/expadd"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_capital"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:visibility="gone"
+        android:id="@+id/expchgdate"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="dd-mm-yyyy" />
+</RelativeLayout>

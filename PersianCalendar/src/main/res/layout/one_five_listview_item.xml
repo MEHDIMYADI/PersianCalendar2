@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout style="@style/AboutCard"
+        android:background="?attr/colorCard">
+
+    <RelativeLayout
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+    <TextView
+        android:id="@+id/itemtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="?attr/colorTextNormal"
+        android:text="@string/title"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/itemamount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1000000000000"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorTextNormal"
+        android:layout_below="@+id/itemtitle"
+        android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/itemrate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorTextSecond"
+            android:text="@string/irr"
+            android:textSize="12sp"
+            android:layout_below="@+id/itemamount"
+            android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/titleCategory"
+        android:textColor="?attr/colorTextDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/itemamount"
+        android:layout_alignRight="@+id/itemamount"
+        android:layout_below="@+id/itemrate"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="@string/category" />
+
+    <TextView
+        android:id="@+id/itemcategory"
+        android:textColor="?attr/colorTextSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/titleCategory"
+        android:layout_alignRight="@+id/titleCategory"
+        android:layout_below="@+id/titleCategory"
+        android:layout_marginTop="5dp"
+        android:text="Category" />
+
+    <TextView
+        android:id="@+id/titleDes"
+        android:textColor="?attr/colorTextDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/itemcategory"
+        android:layout_alignRight="@+id/itemcategory"
+        android:layout_below="@+id/itemcategory"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="@string/description" />
+
+    <TextView
+        android:id="@+id/itemdesc"
+        android:textColor="?attr/colorTextSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/titleDes"
+        android:layout_alignRight="@+id/titleDes"
+        android:layout_below="@+id/titleDes"
+        android:layout_marginTop="5dp"
+        android:text="Description:" />
+
+</RelativeLayout>
+</RelativeLayout>
+</RelativeLayout>

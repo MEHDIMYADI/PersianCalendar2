@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">تقویم فارسی</string>
+    <string name="widget_name">تقویم فارسی</string>
+    <string name="widget_mini_name">تقویم فارسی (کوچک)</string>
+    <string name="latitude">عرض جغرافیایی</string>
+    <string name="longitude">طول جغرافیایی</string>
+    <string name="gps_location_is_found">طول و عرض جغرافیایی شما با موفقیت دریافت شد، لطفا بدون اعمال تغییرات از بخش تنظیمات برنامه خارج شوید تا به طور خودکار ذخیره شود!</string>
+    <string name="gps_location_is_found_dialog">طول و عرض جغرافیایی شما با موفقیت دریافت شد.</string>
+    <string name="settings">تنظیمات</string>
+    <string name="exit">خروج</string>
+    <string name="enable_up_date">جهت اصلاح تقویم قمری و دیگر موارد از سرور به‌صورت خودکار</string>
+    <string name="up_date">به‌روزرسانی اطلاعات تقویم</string>
+    <string name="summary_testament">قابلیت دیدن وصیت‌نامه بدون نیاز به باز کردن قفل گوشی برای بستگان</string>
+    <string name="title_testament">قابلیت دیدن وصیت‌نامه</string>
+    <string name="summary_testament_code">شما می توانید رمز پیش فرض وصیت‌نامه که عدد 506 است را تغییر دهید</string>
+    <string name="title_testament_code">رمز دلخواه برای وصیت‌نامه</string>
+    <string name="enable_persian_digits">نمایش عددها به فارسی</string>
+    <string name="persian_digits">عددهای فارسی</string>
+    <string name="showing_clock_on_widget">نمایش ساعت در ابزارک</string>
+    <string name="clock_on_widget">ساعت در ابزارک</string>
+    <string name="showing_clock_in_24">نمایش ساعت به صورت ۲۴ تایی</string>
+    <string name="clock_in_24">۲۴ ساعته</string>
+    <string name="about">درباره</string>
+    <string name="prayer">نمازگزار</string>
+    <string name="help">راهنما</string>
+    <string name="ghaza">ادای قضا</string>
+    <string name="tasbihat">تسبیحات</string>
+    <string name="asmaallah">اسماء الهی</string>
+    <string name="todaydua">دعای امروز</string>
+    <string name="moslemzekr">ذکر شمار</string>
+    <string name="gpl_logo">نشان پروانهٔ جامع همگانی گنو</string>
+    <string name="widget_text_colors">رنگ متن ابزارک</string>
+    <string name="clock">ساعت</string>
+    <string name="date">تاریخ</string>
+    <string name="search">جستجو</string>
+    <string name="date_converter">تبدیل تاریخ</string>
+    <string name="logo">نشان</string>
+    <string name="dari_months">ماه‌های دری</string>
+    <string name="enable_dari">فعال کردن ماه‌های دری</string>
+    <string name="widget_notification_dashclock">ابزارک، نوار آگاهی و دش‌کلاک</string>
+    <string name="general">عمومی</string>
+    <string name="widget_text_color">رنگ نوشته‌های ابزارک</string>
+    <string name="select_widgets_text_color">انتخاب رنگ دل‌خواه برای نوشته‌های ابزارک</string>
+    <string name="pray_times_calculation_setting">تنظیمات محاسبهٔ اوقات شرعی و قبله‌نما</string>
+    <string name="notify_date">فعال کردن آگاهی</string>
+    <string name="enable_notify">آگاهی همیشگی از تاریخ‌ها، اعمال غیرفعال‌سازی آن نیاز به خاموش و روشن کردن دستگاه دارد</string>
+    <string name="select_skin">انتخاب پوسته</string>
+    <string name="skin">پوسته</string>
+    <string name="pray_methods">شیوه‌های محاسبه</string>
+    <string name="pray_methods_calculation">شیوه‌های محاسبهٔ اوقات شرعی</string>
+    <string name="altitude">ارتفاع</string>
+    <string name="altitude_praytime">به متر (اختیاری)</string>
+    <string name="gps_location">دریافت مختصات از جی‌ پی‌ اس یا شبکه</string>
+    <string name="gps_location_help">اگر از این طریق ممکن باشد، به باقی تنظیمات این بخش نیاز نیست</string>
+    <string name="internet_location_enable">لطفا اینترنت و موقعیت‌یاب را روشن نمایید!</string>
+    <string name="location_enable">لطفا موقعیت‌یاب را روشن نمایید!</string>
+    <string name="internet_enable">لطفا اینترنت را روشن نمایید!</string>
+    <string name="location">موقعیت</string>
+    <string name="location_finder">موقعیت‌یابی</string>
+    <string name="location_help">اگر در فهرست نبود، مختصات را وارد کنید</string>
+    <string name="showing_iran_time">نمایش ابزارک‌ها، نوار آگاهی و برنامه به وقت ایران در همه‌جا</string>
+    <string name="iran_time">وقت ایران</string>
+    <string name="qibla_compass">قطب‌ نما/قبله‌نما</string>
+    <string name="compass">قطب‌ نما</string>
+    <string name="set_location">لطفا ابتدا موقعیت خود را در بخش تنظیمات تنظیم کنید…</string>
+    <string name="compass_not_found">حسگر قطب‌ نما پیدا نشد</string>
+    <string name="whats_new">تغییرات اخیر</string>
+    <string name="notification_calendar">اطلاع‌رسانی تقویم</string>
+    <string name="notification_calendar_desc">تنظیمات اطلاع‌رسانی تقویم</string>
+
+    <string name="phone_location_required">دسترسی به سرویس‌های Phone ،Location و Storage برای این برنامه مورد نیاز است، لطفا دسترسی‌ها را تایید نمایید.</string>
+    <string name="toast_go_to_settings">لطفا به بخش تنظیمات بروید و دسترسی‌های مورد نیاز برنامه را فعال کنید!</string>
+
+    <string name="calibrate_compass_title">کالیبره کردن قطب‌نما…</string>
+    <string name="calibrate_compass_summary">قطب‌نما باید کالیبره شود.\nاز اشیاء مغناطیسی دور شوید، دستگاه را برگردانید و آن را روی هر خط مانند تصویر متحرک به جلو و عقب بچرخانید.</string>
+    <string name="dont_show_again_dialog">لطفا دوباره نشان داده نشود.</string>
+    <string name="calibrate_compass_dismiss">رد کن</string>
+
+    <string name="with_sensor">با سنسور</string>
+    <string name="with_map">با نقشه</string>
+    <string name="gps_internet_desc">لطفا موقعیت‌یاب (GPS) و اینترنت را برای یافتن جهت قبله یا جهت جغرافیایی روشن نمایید.\nبرنامه تنها یک‌بار برای یک مکان نیاز به این دسترسی‌ها دارد و این پیام را نادیده بگیرید، اما در صورتی که مکان شما تغییر کرده است دوباره نیاز به این دسترسی‌ها می باشد.\nدر صورتی که دسترسی‌ها را فعال نمودید دوباره وارد قبله‌نما/قطب‌نما شوید!</string>
+    <string name="gprs_settings">GPRS</string>
+    <string name="wifi_settings">WiFi</string>
+    <string name="gps_settings">GPS</string>
+    <string name="internet_settings">Internet</string>
+    <string name="kaaba">مکه (کعبه)</string>
+    <string name="you_location">مکان فعلی شما جهت اقامه نماز</string>
+
+    <string name="sobh">صبح</string>
+    <string name="t_sobh">تعقیب نماز صبح</string>
+    <string name="zohr">ظهر</string>
+    <string name="t_zohr">تعقیب نماز ظهر</string>
+    <string name="asr">عصر</string>
+    <string name="t_asr">تعقیب نماز عصر</string>
+    <string name="maghreb">مغرب</string>
+    <string name="t_maghreb">تعقیب نماز مغرب</string>
+    <string name="esha">عشاء</string>
+    <string name="t_esha">تعقیب نماز عشاء</string>
+
+    <string name="z1">ذکر اول</string>
+    <string name="z2">ذکر دوم</string>
+    <string name="z3">ذکر سوم</string>
+
+    <string name="weekdays">روزها</string>
+
+    <string name="month_names">نام ماه‌ها</string>
+    <string name="calendar_font">قلم تقویم</string>
+    <string name="application_language">زبان برنامه</string>
+    <string name="language">زبان</string>
+    <string name="calendar_language">زبان تقویم</string>
+    <string name="calendar_language_summary">زبانی که ماه‌ها و روزها به آن نمایش داده می‌شوند</string>
+    <string name="version">نگارش</string>
+    <string name="calendar_font_summary">تغییر قلم تقویم</string>
+    <string name="athan">اذان</string>
+    <string name="athan_alarm_summary">برای این نمازها اذان گفته شود</string>
+    <string name="athan_alarm">اذان‌‌ها</string>
+    <string name="athan_sound">صدای اذان</string>
+    <string name="match_system">تطبیق با سامانه</string>
+    <string name="athan_volume_summary">تنظیم حجم صدای اذان</string>
+    <string name="athan_volume">حجم صدا</string>
+    <string name="tap_to_stop_athan">برای توقف اذان ضربه بزنید</string>
+    <string name="playing_athan">در حال پخش اذان</string>
+    <string name="athan_disabled_summary">برای فعال کردن تنظیمات اذان، مکانی را از فهرست برگزیده، یا مشخصات موقعیتتان را وارد کنید</string>
+    <string name="athan_gap">فاصلهٔ بین اذان واقعی و اذان برنامه</string>
+    <string name="athan_gap_summary">چند دقیقه پیش از اذان، هشدار به صدا در آورده شود</string>
+    <string name="closeDrawer">بستن</string>
+    <string name="openDrawer">گشودن</string>
+    <string name="azan1">اذان صبح</string>
+    <string name="azan2">اذان ظهر</string>
+    <string name="azan3">عصر</string>
+    <string name="azan4">اذان مغرب</string>
+    <string name="azan5">عشاء</string>
+    <string name="aftab1">طلوع آفتاب</string>
+    <string name="aftab2">غروب آفتاب</string>
+    <string name="aftab3">نیمه‌شب شرعی</string>
+    <string name="owghat">اوقات شرعی</string>
+    <string name="events">رویداد‌ها</string>
+    <string name="today">امروز</string>
+    <string name="select_type_date">گزینش گونهٔ تاریخ</string>
+    <string name="year">سال</string>
+    <string name="mount">ماه</string>
+    <string name="day">روز</string>
+    <string name="select_year">گزینش سال</string>
+    <string name="select_mount">گزینش ماه</string>
+    <string name="select_day">گزینش روز</string>
+    <string name="date_exception">تاریخ وارد نشده است. منتظر انتشار نسخه‌ی جدید باشید!</string>
+    <string name="in_city_time">به افق</string>
+    <string name="islamic_offset">تنظیم تقویم اسلامی</string>
+    <string name="islamic_offset_summary">بازگشت برای اصلاح تقویم</string>
+
+    <string name="taghibatnamaz">تعقیبات نماز</string>
+
+    <string name="titlenamaz">نمازهای قضا</string>
+    <string name="namazsobh">نماز صبح</string>
+    <string name="namazzuhr">نماز ظهر</string>
+    <string name="namazasr">نماز عصر</string>
+    <string name="namazmaghrib">نماز مغرب</string>
+    <string name="namazishaa">نماز عشاء</string>
+    <string name="nafelesobh">نافله‌ی صبح</string>
+    <string name="nafelezohr">نافله‌ی ظهر</string>
+    <string name="nafeleasr">نافله‌ی عصر</string>
+    <string name="nafelemaghreb">نافله‌ی مغرب</string>
+    <string name="nafeleesha">نافله‌ی عشا</string>
+    <string name="nafeleshab"> شب</string>
+    <string name="ghazaroze">قضای روزه</string>
+
+    <string name="hadith">
+از امام صادق علیه السلام روایت شده است:«مَنْ سَبَّحَ اللَّهَ فِى دُبُرِ الْفَرِیضَةِ تَسْبِیحَ فاطِمَةَ الْمِائَةَ مَرَّةً وَاَتْبَعَها بِلا اِلهَ اِلَّا اللَّهُ مَرَّةً غُفِرَ لَهُ؛هر کس پس از نماز واجب، با تسبیح فاطمه علیهاالسلام صد بار به تسبیح خدا بپردازد، و به دنبال آن یک بار «لا اِلهَ اِلَّا اللَّه» بگوید، آمرزیده مى‌شود.»    </string>
+    <string name="la_elah_ella_allah">
+«هيچ معبودي جز الله نيست که تنها و بي‌شريک است، پادشاهي و حمد و ستايش سزاوار او و از آن اوست و او بر هر چيزي و هر کاري تواناست»    </string>
+    <string name="zekr_alert">یکی از تصبیحات حضرت فاطمه ی زهرا (س) با موفقیت به اتمام رسید</string>
+    <string name="done">کل تسبیحات این روز</string>
+    <string name="reset">بازنشانی</string>
+    <string name="return_to_current_day">بازگشت به امروز</string>
+    <string name="after_salah">بعد از نماز</string>
+    <string name="gheer_mohadad">شمارنده</string>
+
+    <string-array name="calendar_type">
+        <item>هجری شمسی</item>
+        <item>هجری قمری</item>
+        <item>میلادی</item>
+    </string-array>
+
+    <string name="count">بشمار</string>
+    <string name="start">شروع شمارش</string>
+    <string name="set">سقف شمارش</string>
+    <string name="zero">0</string>
+    <string name="sound">صدا</string>
+    <string name="sound_off">صدا خاموش</string>
+    <string name="sound_on">صدا روشن</string>
+    <string name="vib">لرزش</string>
+    <string name="vib_on">لرزش روشن</string>
+    <string name="vib_off">لرزش خاموش</string>
+    <string name="zekrmore">شمارش ذکر به سقف معین شده رسید، آیا ادامه می دهید؟</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+
+    <string name="dayofweek1">شنبه</string>
+    <string name="dayofweek2">یکشنبه</string>
+    <string name="dayofweek3">دوشنبه</string>
+    <string name="dayofweek4">سه‌شنبه</string>
+    <string name="dayofweek5">چهارشنبه</string>
+    <string name="dayofweek6">پنج‌شنبه</string>
+    <string name="dayofweek7">جمعه</string>
+
+    <string name="noclient">برنامه ای جهت ارسال پست الکترونیکی وجود ندارد!</string>
+    <string name="persian_calendar">تقویم فارسی</string>
+    <string name="whats_new_sum">می توانید تغییرات اخیر را مشاهده کنید.</string>
+    <string name="support_development">حمایت از توسعه دهنده</string>
+    <string name="report_bug">گزارش اشکال</string>
+    <string name="report_bug_sum">گزارش اشکال یا درخواست ویژگی های جدید</string>
+    <string name="sendMail">پست الکترونیکی</string>
+    <string name="sendMail_sum">ارسال یک پست الکترونیکی</string>
+    <string name="translate">ترجمه</string>
+    <string name="translate_sum">در جهت ترجمه به سایر زبان ها به ما کمک کنید.</string>
+    <string name="rate">امتیاز</string>
+    <string name="rate_desc">لطفا به برنامه ی ما امتیاز دهید.</string>
+    <string name="install_app">لطفا برنامه‌ی مایکت را نصب نمایید.</string>
+    <string name="donateDesc">اگر شما دوست دارید حمایت مالی به توسعه دهنده کنید، اینجا کلیک کنید</string>
+    <string name="donateDlg">این بخش در جهت حمایت مالی توسعه دهنده است\nالحمدالله نیازی به این پول ندارم، اما اگر دوست دارید در جهت بهبود برنامه، افزودن امکانات بیشتر و کمک مالی به بنیادهای خیریه سهیم باشید، درنگ نکنید&#8230;</string>
+    <string name="donate">حمایت مالی</string>
+    <string name="donate_sum">حمایت مالی توسط شما در جهت توسعه برنامه</string>
+    <string name="donate_thanks">از حمایت شما سپاس‌گزارم!</string>
+    <string name="donate_problem_setup">مشکل، راه‌اندازی صورتحساب در برنامه انجام نشد: </string>
+    <string name="donate_error_another_progress">مشکل، در حال دریافت اطلاعات حساب شما، برنامه در حال پردازش است.</string>
+    <string name="donate_failed_one">مشکل، درخواست استعلام صورت حساب شما انجام نشد: </string>
+    <string name="donate_error_launch_another_progress">مشکل در پرداخت کمک‌مالی، برنامه در حال پردازش است.</string>
+    <string name="donate_error">مشکل در کمک‌مالی: </string>
+    <string name="donate_error_verification">مشکل در کمک‌مالی، پردازش تأیید صحت صورت حساب ناموفق بود.</string>
+    <string name="donate_error_pm">مشکل: </string>
+    <string name="supporters">حامیان تقویم فارسی</string>
+    <string name="license">مجوز</string>
+    <string name="license_sum">Check Apache License, Version 2.0 license terms used on Persian Calendar 2.</string>
+    <string name="source_code_org">منبع سورس پایه</string>
+    <string name="source_code_sum">بررسی سورس‌هایی که استفاده شده است.</string>
+    <string name="cancel">انصراف</string>
+    <string name="ok">باشه</string>
+    <string name="source">منبع سورس</string>
+
+    <string name="please_wait">در حال به‌روزرسانی، شکیبا باشید…</string>
+    <string name="server_error">باعرض پوزش، سرور دچار مشکل شده است.</string>
+
+    <string name="date_copied_clipboard">به حافظه رونوشت شد</string>
+    <string name="stop">توقف</string>
+    <string name="goto_date">برو به تاریخ</string>
+    <string name="go_today">امروز</string>
+    <string name="select">انتخاب</string>
+    <string name="pleasewaitgps">لطفا حتما از قبل GPS را فعال نموده و همچنین به اینترنت متصل باشید.\nدر غیر این صورت از برنامه خارج شده و اینترنت و GPS را فعال نمایید و دوباره وارد این بخش شوید.\nحال کمی درنگ کنید…\nاگر پس از یک دقیقه نتیجه‌ای حاصل نشد احتمالاً باید گزینه‌های دیگر را بیازمایید!</string>s
+    <string name="pleasewaitgpsDialog">حال کمی درنگ کنید…\nاگر پس از یک دقیقه نتیجه‌ای حاصل نشد احتمالاً باید گزینه‌های دیگر را در تنظیمات بیازمایید!</string>s
+    <string name="holidaysIncompletenessWarning">مناسبت‌های این سال در تقویم کامل نیست.</string>
+    <string name="shouldBeUpdated">مناسبت‌های امسال در تقویم به طور کامل وارد نشده‌است، احتمالاً نیاز به به‌روزرسانی این برنامه، در صورت وجود، دارید.</string>
+
+    <string-array name="accordion_sections">
+        <item>چرا در تقویم فارسی اذان پخش نمی‌شود یا در زمان مقرر با اختلاف زماني پخش می‌شود؟</item>
+        <item>چرا تقویم فارسی خود به خود خارج می شود؟</item>
+        <item>چرا بعضی مواقع در تاریخ قمری اختلاف وجود دارد؟</item>
+        <item>شهر من در لیست شهرهای پیش‌فرض نمی‌باشد چگونه می توانم موقعیت خود را تعیین نمایم؟</item>
+        <item>چگونه می توانم به کمک تقویم فارسی یک یادآور در تقویم گوگل یا دیگر تقویم‌ها ثبت نمایم؟</item>
+        <item>چرا بعضی مواقع دستگاه وقتی به اینترنت متصل است به‌روزرسانی تقویم فارسی دیر انجام می‌شود یا اصلا انجام نمی‌شود؟</item>
+        <item>دلیل درخواست های دسترسی به SMS ،Phone ،Location و Storage چیست و چرا باید تایید شوند؟</item>
+        <item>در قطب‌نما با سنسور معنای دایره‌‌ی زرد و دایره‌‌ی سیاه‌و‌سفید و همچنین در قبله‌نما با نقشه معنای خط ترسیمی قرمز چیست؟</item>
+        <item>چگونه خمس را محاسبه نمایم و همچنین معنا و مفهوم E در محاسبه‌ها چیست؟</item>
+        <item>طریقه‌ی کار با وصیت نامه چگونه است؟</item>
+    </string-array>
+    <string name="why_0_0">• در برخی از مدل‌های تلفن همراه یک ویژگی به نام "صرفه جویی در نیرو" وجود دارد، در صورتی که تعداد دفعات اجرای برنامه به صفر برسد آن برنامه‌ها را بلااستفاده دانسته و فعالیت آن را محدود و از پردازش منع می‌سازد که اصطلاحا برنامه را "KILL" خواهد کرد. برای رفع این مشکل وارد تنظیمات دستگاه بخش باتری شده و هرگونه محدودسازی برای برنامه تقویم فارسی را غیر فعال نمایید.\n</string>
+    <string name="why_0_1">• مطمئن شوید ساعت دستگاه بر اساس ساعت رسمي کشور تنظيم می‌باشد، در غیر این صورت وارد تنظيمات دستگاه و بخش تنظيم تاريخ و زمان، حالت تنظیم خودکار را غيرفعال نموده و سپس از منوي انتخاب منطقه زماني ايران يا تهران را انتخاب نمایید.\n</string>
+    <string name="why_0_2">• در صورتی که اذان با اختلاف اندکی پخش می‌شود برای کاهش این اختلاف ابتدا GPS و دسترسی به اینترنت را فعال کنید و از منوی برنامه تقویم فارسی وارد (تنظیمات > دریافت مختصات از جی‌ پی‌ اس یا شبکه) شده و منتظر بمانید تا جستجوی موقعیت فعلی شما انجام شود بعد از اتمام از تنظیمات خارج شوید تا محاسبه اوقات شرعی طبق مکان فعلی شما صورت گیرد.\n</string>
+    <string name="why_1_0">• در صورتی که از برنامه‌ی Smart Manager در برند سامسونگ یا برنامه‌های مشابه در اَپ‌استور با عنوان مدیریت وظیفه (Task Manager) استفاده می‌نمایید لطفا  تقویم فارسی را از لیست آنها حذف کنید تا در فعالیت برنامه تقویم فارسی اختلال ایجاد ننماید.\n</string>
+    <string name="why_1_1">• در اندروید ۶ یا نسخه‌های جدیدتر قابلیتی چون Doze وجود دارد که باعث ارتقاء عمر باتری می‌شود لطفا تقویم فارسی را از لیست آن حذف کنید تا روند کار برنامه دچار اختلال نشود.\n</string>
+    <string name="why_2_0">• تقویم فارسی این مشکل را در صورت اتصال به اینترنت و اجرا نمودن تقویم به‌طور خودکار با بارگزاری از سرور اصلاح می‌نماید. در غیر این صورت می‌توانید از آموزش ذیل استفاده نمایید.\n</string>
+    <string name="why_2_1">• به دلیل وجود جابجایی در ماه‌های قمری در نمایش تقویم قمری تداخل ۱ یا ۲ روز که بعضا جلوتر یا عقب‌تر از تاریخ واقعی به نمایش خواهد آمد که برای اصلاح آن از بخش (تنظیمات > تنظیم تقویم اسلامی) مقدار صحیح را تعیین نمایید تا در تقویم اعمال شود.\n</string>
+    <string name="why_3_0">• موقعیت یاب (GPS) و دسترسی به اینترنت را فعال کنید و از منوی برنامه تقویم فارسی وارد (تنظیمات > دریافت مختصات از جی‌ پی‌ اس یا شبکه) شده و منتظر بمانید تا جستجوی موقعیت فعلی شما انجام شود و در پایان از بخش تنظیمات خارج شوید تا موقعیت به طور خودکار ثبت شود.\n</string>
+    <string name="why_4_0">• در صورتی که نیاز به ثبت یک یادآور دارید شما می توانید در تقویم فارسی روز مورد نظر را یافته و با لمس طولانی بر روی آن روز به تقویم دستگاه خود انتقال یابید که معادل میلادی آن روز جهت ثبت یادآورتان نمایش داده خواهد شد.\n</string>
+    <string name="why_5_0">• ممکن است مشکل از کندی و پایین بودن سرعت اینترنت یا قطعي و اختلالات گسترده در شبكه اينترنت باشد. سعی کنید از ارائه‌دهنده‌ی اینترنت باکیفیت و پرسرعت استفاده نمایید.\n</string>
+    <string name="why_5_1">• ممکن است مشکل از سمت سرور باشد و از دلایل مهم آن بار ترافیکی بالا بر روی سرور است که باعث می‌شود برای زمان کوتاهی از دسترس خارج شده یا به کندی عمل نماید. فرصت دهید تا بار ترافیک کاربران به سرور کاهش یابد و سرور به حالت قبل بازگردد.\n</string>
+    <string name="why_5_2">• درصورتی که علاقه‌ای به به‌روزرسانی تنظیمات تقویم فارسی برای رفع خطاهای احتمالی ندارید می‌توانید از بخش تنظیمات آن را غیر فعال نمایید.\n</string>
+    <string name="why_6_0">• دسترسی Location: این دسترسی برای قطب‌نما و قبله‌نما مورد نیاز است تا تقویم فارسی بتواند موقعیت جغرافیایی و جهت قبله فعلی شما را جستجو نماید. همچنین برای ثبت دستی موقعیت جغرافیایی در بخش تنظیمات جهت محاسبه اوقات شرعی به کار می رود.\n</string>
+    <string name="why_6_1">• دسترسی Phone: این دسترسی باعث می‌شود اذان تقویم فارسی در حالی که مکالمه شما در زمان اذان است پخش نشود.\n</string>
+    <string name="why_6_2">• دسترسی Storage: این دسترسی را تقویم فارسی جهت نمایش تصویر در صفحه ورود نیاز دارد تا آن را ذخیره نماید و دیگر نیاز به بارگزاری دوباره‌ی آن از سرور نباشد.\n</string>
+    <string name="why_6_3">• دسترسی SMS: این دسترسی جهت خواندن پیامک‌های ورودی می‌باشد. تقویم فارسی به محض دریافت پیامک حاوی رمز، وصیت‌نامه شما را حتی زمانی که دستگاه قفل باشد نمایش می دهد.\n</string>
+    <string name="why_6_4">• با توضیحاتی که به آنها اشاره شد تمامی دسترسی‌ها برای تقویم فارسی مورد نیاز است و اگر یکی از آنها تایید نشود در روند کار برنامه اختلال ایجاد خواهد شد.\n</string>
+    <string name="why_7_0">• در قطب‌نما و قبله‌نما با سنسور دایره زرد نمایان‌گر موقعیت خورشید در زمان فعلی شما می‌باشد و همچنین دایره سیاه‌و‌سفید نمایان‌گر موقعیت ماه که هلال آن هم با ترکیب رنگ سفید و سیاه مشخص شده می‌باشد.\n</string>
+    <string name="why_7_1">• خط ترسیمی قرمز در قبله‌نما با نقشه نمایان‌گر خط فرضی جهت قبله شما می‌باشد که بر آن اساس باید نماز خود را اقامه کنید.\n</string>
+    <string name="why_8_0">• در این قسمت شما با افزودن یک دسته و افزودن یک سرمایه به ریال در دسته‌ی مدنظر می‌توانید خمس سرمایه خود را به تفکیک دسته‌ها و یا مجموع آن محاسبه کنید.\n</string>
+    <string name="why_8_1">• به علت وجود محدودیت در نمایش تعداد ارقام برای نمایش اعداد خیلی بزرگتر یا خیلی کوچکتر از نماد علمی اعداد استفاده می‌گردد. این نوع نمایش در اکثر ابزارهای محاسبه برای اعداد خیلی بزرگ یا خیلی کوچک مورد استفاده قرار می‌گیرد. به طور مثال محاسبه‌گر عدد 1.23456e+14 را نمایش می دهد که برابر 123,456,000,000,000 می‌باشد. یعنی به عبارت دیگر عدد قبل E ضربدر 10 به توان 14 شده است.\n</string>
+    <string name="why_9_0">• انشاالله خداوند طول عمر با عزت به شما عطا فرماید. اما در مواقع ضروری شاید نیاز داشته باشید به طرق مختلف تمام خواسته‌های خود را در اختیار بستگان نزدیک قرار دهید. توسط این بخش شما می‌توانید به آسانی این کار را انجام دهید.\n</string>
+    <string name="why_9_1">• وصیت‌نامه را به دو روش می توان مطالعه کرد.\nروش اول: شما می‌توانید با نوشتن کد *#*#506#*#* از چپ به راست در تماس وصیت‌نامه را مشاهده کنید. اما ممکن است در برخی برندها مانند سامسونگ این روش عمل نکند که در این صورت از روش دوم استفاده نمایید.\nروش دوم: همچنین شما می‌توانید با ارسال پیامک با محتوای عدد 506 به لاتین وصیت‌نامه را مشاهده کنید.\n</string>
+    <string name="why_9_2">• شما می‌توانید برای حفظ حریم شخصی در بخش تنظیمات حداکثر یک عدد ۱۰ رقمی دلخواه به‌جای عدد 506 پیش فرض انتخاب کنید و آن کد را در اختیار فرد امین قرار دهید.\n</string>
+
+    <string name="one_five">خمس سرمایه</string>
+    <string name="add_category">افزودن دسته</string>
+    <string name="add_capital">افزودن سرمایه</string>
+    <string name="result">نتیجه</string>
+    <string name="category_field_empty">کادر دسته خالی است</string>
+    <string name="category_added">دسته افزوده شد</string>
+    <string name="category_deleted">دسته حذف شد</string>
+    <string name="category_error">مشکلی پیش آمده</string>
+    <string name="one_five_title_error">لطفا عنوان را وارد کنید</string>
+    <string name="one_five_amount_error">لطفا مقدار را وارد کنید</string>
+    <string name="one_five_category_error">لطفا دسته را انتخاب کنید</string>
+    <string name="one_five_added">با موفقیت افزوده شد</string>
+    <string name="one_five_last_data_added_title">آخرین سرمایه‌ی وارد شده:</string>
+    <string name="one_five_add_error">خطایی اتفاق افتاده است، سرمایه اضافه نشد</string>
+    <string name="one_five_capital_edit_update">سرمایه حذف یا به روز شد</string>
+    <string name="popup_one_five_title_error">لطفا عنوان را وارد کنید</string>
+    <string name="popup_one_five_amount_error">لطفا مقدار را وارد کنید</string>
+    <string name="popup_one_five_updated">اطلاعات به‌روزرسانی شد</string>
+    <string name="popup_one_five_update_error">خطایی اتفاق افتاده است، به‌روزرسانی ناموفق بود</string>
+    <string name="popup_one_five_deleted">سرمایه با موفقیت حذف شد</string>
+    <string name="popup_one_five_delete__error">خطایی اتفاق افتاده است، سرمایه با موفقیت حذف نشد</string>
+    <string name="popup_one_five_">خمس سرمایه</string>
+    <string name="all">همه</string>
+    <string name="edit">ویرایش</string>
+    <string name="delete">حذف</string>
+    <string name="result_one_five_deleted">سرمایه با موفقیت حدف شد</string>
+    <string name="result_one_five_delete_error">خطایی اتفاق افتاده است، سرمایه با موفقیت حذف نشد</string>
+    <string name="total_capital">کل سرمایه: </string>
+    <string name="capital_one_five">خمس سرمایه: </string>
+    <string name="hint_title">عنوان</string>
+    <string name="hint_description">شرح</string>
+    <string name="hint_amount">مقدار به ريال</string>
+    <string name="category">دسته:</string>
+    <string name="add_new_category">نام دسته جدید</string>
+    <string name="add">افزودن</string>
+    <string name="update">به‌روز رسانی</string>
+    <string name="delete_capital">حذف سرمایه</string>
+    <string name="title">عنوان:</string>
+    <string name="description">شرح:</string>
+    <string name="amount">مقدار:</string>
+    <string name="irr">ریال</string>
+    <string name="number_limited">نکته</string>
+    <string name="number_limited_message_one">اعداد ورودی نمی‌شود بیش از</string>
+    <string name="number_limited_message_two">عدد باشد.</string>
+
+    <string name="testament">وصیت‌نامه</string>
+    <string name="please_set_title">لطفا یک عنوان برای وصیت‌نامه خود بنویسید</string>
+    <string name="share_via">اشتراک از طریق:</string>
+    <string name="delete_note">حذف وصیت‌نامه</string>
+    <string name="delete_note_sure">آیا مطمئن هستید که می‌خواهید حذف کنید؟</string>
+    <string name="note_not_created">توجه داشته باشید که ایجاد نشد..</string>
+    <string name="testament_add_error">خطا رخ داده است، وصیت‌نامه اضافه نشده است</string>
+    <string name="save">ذخیره</string>
+    <string name="share">اشتراک</string>
+    <string name="close">بستن</string>
+    <string name="cannot_delete">حذف نشد!</string>
+    <string name="cannot_update">به‌روز نشد!</string>
+    <string name="will_updated">به‌روز شد!</string>
+    <string name="will_deleted">حذف شد!</string>
+    <string name="deleted">حذف شد!</string>
+    <string name="add_testament">افزودن وصیت</string>
+    <string name="write_your_will">وصیت خود را در این قسمت بنویسید…</string>
+
+</resources>

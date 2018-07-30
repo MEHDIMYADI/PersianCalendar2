@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string-array name="names_ar">
+        <item>اللَّه</item>
+        <item>الرَّحْمَنُ</item>
+        <item>الرَّحِيمُ</item>
+        <item>الْمَلِكُ</item>
+        <item>الْقُدُّوسُ</item>
+        <item>السَّلاَمُ</item>
+        <item>الْمُؤْمِنُ</item>
+        <item>الْمُهَيْمِنُ</item>
+        <item>الْعَزِيزُ</item>
+        <item>الْجَبَّارُ</item>
+        <item>الْمُتَكَبِّرُ</item>
+        <item>الْخَالِقُ</item>
+        <item>الْبَارِئُ</item>
+        <item>الْمُصَوِّرُ</item>
+        <item>الْغَفَّارُ</item>
+        <item>الْقَهَّارُ</item>
+        <item>الْوَهَّابُ</item>
+        <item>الرَّزَّاقُ</item>
+        <item>الْفَتَّاحُ</item>
+        <item>العَلِيمُ</item>
+        <item>الْقَابِضُ</item>
+        <item>الْبَاسِطُ</item>
+        <item>الْخَافِضُ</item>
+        <item>الرَّافِعُ</item>
+        <item>الْمُعِزُّ</item>
+        <item>المُذِلُّ</item>
+        <item>السَّمِيعُ</item>
+        <item>الْبَصِيرُ</item>
+        <item>الْحَكَمُ</item>
+        <item>الْعَدْلُ</item>
+        <item>اللَّطِيفُ</item>
+        <item>الْخَبِيرُ</item>
+        <item>الْحَلِيمُ</item>
+        <item>الْعَظِيمُ</item>
+        <item>الْغَفُورُ</item>
+        <item>الشَّكُورُ</item>
+        <item>الْعَلِيُّ</item>
+        <item>الْكَبِيرُ</item>
+        <item>الْحَفِيظُ</item>
+        <item>المُقيِت</item>
+        <item>الْحسِيبُ</item>
+        <item>الْجَلِيلُ</item>
+        <item>الْكَرِيمُ</item>
+        <item>الرَّقِيبُ</item>
+        <item>الْمُجِيبُ</item>
+        <item>الْوَاسِعُ</item>
+        <item>الْحَكِيمُ</item>
+        <item>الْوَدُودُ</item>
+        <item>الْمَجِيدُ</item>
+        <item>الْبَاعِثُ</item>
+        <item>الشَّهِيدُ</item>
+        <item>الْحَقُّ</item>
+        <item>الْوَكِيلُ</item>
+        <item>الْقَوِيُّ</item>
+        <item>الْمَتِينُ</item>
+        <item>الْوَلِيُّ</item>
+        <item>الْحَمِيدُ</item>
+        <item>الْمُحْصِي</item>
+        <item>الْمُبْدِئُ</item>
+        <item>الْمُعِيدُ</item>
+        <item>الْمُحْيِي</item>
+        <item>الْمُِميتُ</item>
+        <item>الْحَيُّ</item>
+        <item>الْقَيُّومُ</item>
+        <item>الْوَاجِدُ</item>
+        <item>الْمَاجِدُ</item>
+        <item>الْواحِدُ</item>
+        <item>الأَحَدُ</item>
+        <item>الصَّمَدُ</item>
+        <item>الْقَادِرُ</item>
+        <item>الْمُقْتَدِرُ</item>
+        <item>الْمُقَدِّمُ</item>
+        <item>الْمُؤَخِّرُ</item>
+        <item>الأوَّلُ</item>
+        <item>الآخِرُ</item>
+        <item>الظَّاهِرُ</item>
+        <item>الْبَاطِنُ</item>
+        <item>الْوَالِي</item>
+        <item>الْمُتَعَالِي</item>
+        <item>الْبَرُّ</item>
+        <item>التَّوابُ</item>
+        <item>الْمُنْتَقِمُ</item>
+        <item>العَفُوُّ</item>
+        <item>الرَّؤُوفُ</item>
+        <item>مَالِكُ الْمُلْكِ</item>
+        <item>ذُوالْجَلاَلِ وَالإكْرَامِ</item>
+        <item>الْمُقْسِطُ</item>
+        <item>الْجَامِعُ</item>
+        <item>الْغَنِيُّ</item>
+        <item>الْمُغْنِي</item>
+        <item>ُالمَانِعُ</item>
+        <item>الضَّارَّ</item>
+        <item>النَّافِعُ</item>
+        <item>النُّورُ</item>
+        <item>الْهَادِي</item>
+        <item>الْبَدِيعُ</item>
+        <item>الْبَاقِِي</item>
+        <item>الْوَارِثُ</item>
+        <item>الرَّشِيدُ</item>
+        <item>الصَّبُورُ</item>
+    </string-array>
+
+    <string-array name="names_fa">
+        <item>خدا</item>
+        <item>بخشاینده</item>
+        <item>مهربان</item>
+        <item>پادشاه</item>
+        <item>مقدس</item>
+        <item>پاک و سلامتی بخش عالم</item>
+        <item>اطمینان دهنده</item>
+        <item>نگهدارنده</item>
+        <item>باشکوه</item>
+        <item>توانگر</item>
+        <item>بسیار بزرگ</item>
+        <item>آفریننده</item>
+        <item>درست</item>
+        <item>نگارگر</item>
+        <item>همیشه بخشاینده</item>
+        <item>فروکاهنده</item>
+        <item>نیک بخشاینده</item>
+        <item>همیشه روزی دهنده</item>
+        <item>گشاینده</item>
+        <item>داناترین</item>
+        <item>بیرون کشنده جان‌ها</item>
+        <item>گستراننده</item>
+        <item>پست کننده</item>
+        <item>بالا برنده</item>
+        <item>عزیز کننده</item>
+        <item>خوارکننده</item>
+        <item>شنواترین</item>
+        <item>بیناترین</item>
+        <item>دادگر</item>
+        <item>بینهایت عادل</item>
+        <item>بر بندگانش لطف دارد</item>
+        <item>آگاه‌ترین</item>
+        <item>بسیار بردبار</item>
+        <item>بی‌انتها</item>
+        <item>بسیار بخشاینده</item>
+        <item>بسیار سپاس‌گزار</item>
+        <item>بلند مرتبه</item>
+        <item>بزرگ‌ترین</item>
+        <item>نگهدارنده</item>
+        <item>خوراک دهنده</item>
+        <item>شمارنده</item>
+        <item>بسیار گرانقدر</item>
+        <item>بسیار بخشنده</item>
+        <item>نگهبان</item>
+        <item>پاسخگو</item>
+        <item>گسترده</item>
+        <item>بسیار خردمند</item>
+        <item>دوست</item>
+        <item>بسیار لایق ستایش</item>
+        <item>برانگیزنده مردگان</item>
+        <item>بیننده</item>
+        <item>راست</item>
+        <item>عهده دار همه امور بندگان و موجودات</item>
+        <item>پرزور</item>
+        <item>پاینده</item>
+        <item>دوست</item>
+        <item>ستوده</item>
+        <item>شمارنده</item>
+        <item>نخستین آفریننده</item>
+        <item>بازگرداننده</item>
+        <item>زندگی بخش</item>
+        <item>نابود کننده</item>
+        <item>زنده</item>
+        <item>قائم به ذات</item>
+        <item>یابنده</item>
+        <item>بزرگوار</item>
+        <item>یکتای بی‌همتا</item>
+        <item>یگانه</item>
+        <item>بی‌نیاز</item>
+        <item>توانا</item>
+        <item>تعیین کننده</item>
+        <item>فراپیش کشنده</item>
+        <item>فراپس دارنده</item>
+        <item>نخستین</item>
+        <item>واپسین</item>
+        <item>آشکار</item>
+        <item>پنهان</item>
+        <item>یگانه سرپرستی که همه ولایتها از اوست</item>
+        <item>خود ستوده</item>
+        <item>نیکوترین</item>
+        <item>همیشه توبه پذیر</item>
+        <item>انتقام گیر</item>
+        <item>ناپدیدکننده گناهان</item>
+        <item>بسیار دلسوز و مهربان</item>
+        <item>فرمانروای جهان</item>
+        <item>دارای شکوه و بخشش</item>
+        <item>عادل</item>
+        <item>گردآورنده</item>
+        <item>توانگر</item>
+        <item>بی‌نیاز کننده</item>
+        <item>بازدارنده</item>
+        <item>آزار دهنده</item>
+        <item>سودمند</item>
+        <item>روشنی</item>
+        <item>رهنما</item>
+        <item>سنجش ناپذیر</item>
+        <item>ماندگار و واگردان نشدنی</item>
+        <item>مالک نهایی تمام مخلوقات</item>
+        <item>آموزگار و دانای بی‌خطا</item>
+        <item>شکیبا</item>
+    </string-array>
+
+    <string-array name="names_en">
+        <item>He is Allah besides Whom there is no god</item>
+        <item>The All-Merciful</item>
+        <item>The All-Beneficient</item>
+        <item>The Absolute Ruler</item>
+        <item>The Pure One</item>
+        <item>The Source of Peace</item>
+        <item>The Inspirer of Faith</item>
+        <item>The Guardian</item>
+        <item>The Victorious</item>
+        <item>The Compeller</item>
+        <item>The Greatest</item>
+        <item>The Creator</item>
+        <item>The Maker of Order</item>
+        <item>The Shaper of Beauty</item>
+        <item>The Forgiving</item>
+        <item>The Subduer</item>
+        <item>The Giver of All</item>
+        <item>The Sustainer</item>
+        <item>The Opener</item>
+        <item>The Knower of All</item>
+        <item>The Constrictor</item>
+        <item>The Reliever</item>
+        <item>The Abaser</item>
+        <item>The Exalter</item>
+        <item>The Bestower of Honors</item>
+        <item>The Humiliator</item>
+        <item>The Hearer of All</item>
+        <item>The Seer of All</item>
+        <item>The Judge</item>
+        <item>The Just</item>
+        <item>The Subtle One</item>
+        <item>The All-Aware</item>
+        <item>The Forebearing</item>
+        <item>The Magnificent</item>
+        <item>The Forgiver and Hider of Faults</item>
+        <item>The Rewarder of Thankfulness</item>
+        <item>The Highest</item>
+        <item>The Greatest</item>
+        <item>The Preserver</item>
+        <item>The Nourisher</item>
+        <item>The Accounter</item>
+        <item>The Mighty</item>
+        <item>The Generous</item>
+        <item>The Watchful One</item>
+        <item>The Responder to Prayer</item>
+        <item>The All-Comprehending</item>
+        <item>The Perfectly Wise</item>
+        <item>The Loving One</item>
+        <item>The Majestic One</item>
+        <item>The Resurrector</item>
+        <item>The Witness</item>
+        <item>The Truth</item>
+        <item>The Trustee</item>
+        <item>The Possessor of All Strength</item>
+        <item>The Forceful One</item>
+        <item>The Governor</item>
+        <item>The Praised One</item>
+        <item>The Appraiser</item>
+        <item>The Originator</item>
+        <item>The Restorer</item>
+        <item>The Giver of Life</item>
+        <item>The Taker of Life</item>
+        <item>The Ever Living One</item>
+        <item>The Self-Existing One</item>
+        <item>The Finder</item>
+        <item>The Glorious</item>
+        <item>The Only One</item>
+        <item>The Unity</item>
+        <item>The Satisfier of All Needs</item>
+        <item>The All Powerful</item>
+        <item>The Creator of All Power</item>
+        <item>The Expediter</item>
+        <item>The Delayer</item>
+        <item>The First</item>
+        <item>The Last</item>
+        <item>The Manifest One</item>
+        <item>The Hidden One</item>
+        <item>The Protecting Friend</item>
+        <item>The Supreme One</item>
+        <item>The Doer of Good</item>
+        <item>The Guide to Repentance</item>
+        <item>The Avenger</item>
+        <item>The Forgiver</item>
+        <item>The Clement</item>
+        <item>The Owner of All</item>
+        <item>The Lord of Majesty and Bounty</item>
+        <item>The Equitable One</item>
+        <item>The Gatherer</item>
+        <item>The Rich One</item>
+        <item>The Enricher</item>
+        <item>The Preventer of Harm</item>
+        <item>The Creator of The Harmful</item>
+        <item>The Creator of Good</item>
+        <item>The Light</item>
+        <item>The Guide</item>
+        <item>The Originator</item>
+        <item>The Everlasting One</item>
+        <item>The Inheritor of All</item>
+        <item>The Righteous Teacher</item>
+        <item>The Patient One</item>
+    </string-array>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:accordion="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="?attr/colorCard"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ir.dimyadi.persiancalendar.view.help.widget.ToggleImageLabeledButton
+            android:tint="?attr/colorDrawerIcon"
+            android:id="@+id/foldButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:scaleType="center"
+            android:layout_marginTop="4dp"
+            accordion:icon_resource="@drawable/ic_down"
+            accordion:icon_resource_off="@drawable/ic_up" />
+
+        <!-- paddingRight added to center text correctly -->
+
+        <TextView
+            android:id="@+id/foldText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorTextDrawer"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:text="Section Name" />
+    </RelativeLayout>
+
+</LinearLayout>

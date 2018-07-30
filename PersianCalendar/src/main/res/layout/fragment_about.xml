@@ -1,0 +1,438 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackground"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            style="@style/AboutCard"
+            android:gravity="center"
+            android:background="?attr/colorCard"
+            >
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/ic_app"
+                android:layout_width="148dp"
+                android:layout_height="148dp"
+                android:layout_margin="5dp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:textColor="?attr/colorTextDrawer"
+                android:layout_width="wrap_content"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"/>
+
+
+            <android.support.v7.widget.AppCompatTextView
+                android:textColor="?attr/colorTextSecond"
+                android:id="@+id/version"
+                android:layout_width="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:text="@string/version"/>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AboutCard"
+            android:background="?attr/colorCard"
+            >
+
+            <android.support.v7.widget.AppCompatTextView
+                android:textColor="?attr/colorTextDrawer"
+                android:text="@string/persian_calendar"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/whatsNew">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:tint="?attr/colorDrawerIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    app:srcCompat="@drawable/ic_whats_new"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="center"
+                    android:id="@+id/icon_whats_new"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:textColor="?attr/colorTextDrawer"
+                    android:id="@+id/title_whats_new"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="@string/whats_new"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:textColor="?attr/colorTextSecond"
+                    android:id="@+id/summary_whats_new"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="12sp"
+                    android:layout_below="@+id/title_whats_new"
+                    android:text="@string/whats_new_sum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AboutCard"
+            android:background="?attr/colorCard"
+            >
+
+            <android.support.v7.widget.AppCompatTextView
+                android:textColor="?attr/colorTextDrawer"
+                android:text="@string/support_development"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/reportBug">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:tint="?attr/colorDrawerIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    app:srcCompat="@drawable/ic_bug"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="center"
+                    android:id="@+id/icon"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:textColor="?attr/colorTextDrawer"
+                    android:id="@+id/title"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="@string/report_bug"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:textColor="?attr/colorTextSecond"
+                    android:id="@+id/summary"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="12sp"
+                    android:layout_below="@+id/title"
+                    android:text="@string/report_bug_sum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/mail">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:tint="?attr/colorDrawerIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    app:srcCompat="@drawable/ic_mail"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="center"
+                    android:id="@id/icon"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:textColor="?attr/colorTextDrawer"
+                    android:id="@id/title"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="@string/sendMail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:textColor="?attr/colorTextSecond"
+                    android:id="@id/summary"
+                    android:textSize="12sp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_below="@+id/title"
+                    android:text="@string/sendMail_sum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/translate"
+                android:background="?android:attr/selectableItemBackground">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:tint="?attr/colorDrawerIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    app:srcCompat="@drawable/ic_translate"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="center"
+                    android:id="@id/icon"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:textColor="?attr/colorTextDrawer"
+                    android:id="@id/title"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="@string/translate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:textColor="?attr/colorTextSecond"
+                    android:id="@id/summary"
+                    android:textSize="12sp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_below="@+id/title"
+                    android:text="@string/translate_sum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rate"
+                android:padding="5dp"
+                android:background="?android:attr/selectableItemBackground">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:tint="?attr/colorDrawerIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    app:srcCompat="@drawable/ic_star"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="center"
+                    android:id="@id/icon"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:textColor="?attr/colorTextDrawer"
+                    android:id="@id/title"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="@string/rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:textColor="?attr/colorTextSecond"
+                    android:id="@id/summary"
+                    android:textSize="12sp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_below="@+id/title"
+                    android:text="@string/rate_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/donate"
+                android:padding="5dp"
+                android:background="?android:attr/selectableItemBackground">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:tint="?attr/colorDrawerIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    app:srcCompat="@drawable/ic_donate"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="center"
+                    android:id="@id/icon"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:textColor="?attr/colorTextDrawer"
+                    android:id="@id/title"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="@string/donate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:textColor="?attr/colorTextSecond"
+                    android:id="@id/summary"
+                    android:textSize="12sp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_below="@+id/title"
+                    android:text="@string/donate_sum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AboutCard"
+            android:background="?attr/colorCard"
+            >
+
+            <android.support.v7.widget.AppCompatTextView
+                android:textColor="?attr/colorTextDrawer"
+                android:text="@string/license"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:id="@+id/licenses"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_gravity="bottom">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:tint="?attr/colorDrawerIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    app:srcCompat="@drawable/ic_licences"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="center"
+                    android:id="@id/icon"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:textColor="?attr/colorTextDrawer"
+                    android:id="@id/title"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="@string/license"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:textColor="?attr/colorTextSecond"
+                    android:text="@string/license_sum"
+                    android:textSize="12sp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_below="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LibLicences"
+                android:padding="5dp"
+                android:background="?android:attr/selectableItemBackground">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:tint="?attr/colorDrawerIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@drawable/ic_licences"
+                    android:scaleType="center"
+                    android:id="@id/icon"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:textColor="?attr/colorTextDrawer"
+                    android:id="@id/title"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="@string/source_code_org"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:textColor="?attr/colorTextSecond"
+                    android:text="@string/source_code_sum"
+                    android:textSize="12sp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_below="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

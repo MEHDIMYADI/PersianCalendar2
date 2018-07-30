@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Persian Calendar</string>
+    <string name="widget_name">Persian Calendar</string>
+    <string name="widget_mini_name">Persian Calendar (mini)</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="gps_location_is_found">Latitude and Longitude successfully received, please exit without changes from the settings to be saved automatically!</string>
+    <string name="gps_location_is_found_dialog">Latitude and Longitude successfully received.</string>
+    <string name="settings">Settings</string>
+    <string name="exit">Exit</string>
+    <string name="enable_up_date">Fix the Islamic Calendar and other items from server automatically</string>
+    <string name="up_date">Updating calendar information</string>
+    <string name="summary_testament">Ability to see the will without the need to unlock the phone for relatives</string>
+    <string name="title_testament">Ability to see the will</string>
+    <string name="summary_testament_code">You can change the default secret code, which is 506</string>
+    <string name="title_testament_code">Secret code for to see the will</string>
+    <string name="enable_persian_digits">Enable Persian Digits</string>
+    <string name="persian_digits">Persian Digits</string>
+    <string name="showing_clock_on_widget">Show the clock on widget</string>
+    <string name="clock_on_widget">Clock on the Widget</string>
+    <string name="showing_clock_in_24">Show the clock in 24 hour</string>
+    <string name="clock_in_24">Clock in 24 hour</string>
+    <string name="about">About</string>
+    <string name="prayer">Prayer</string>
+    <string name="help">Help</string>
+    <string name="ghaza">Ironically prayer</string>
+    <string name="tasbihat">Tasbih</string>
+    <string name="asmaallah">Names of God</string>
+    <string name="todaydua">Today Dua</string>
+    <string name="moslemzekr">Zekr Counter</string>
+    <string name="gpl_logo">GPL Logo</string>
+    <string name="widget_text_colors">Widget Text Colors</string>
+    <string name="clock">Clock</string>
+    <string name="date">Date</string>
+    <string name="search">Search</string>
+    <string name="date_converter">Date Converter</string>
+    <string name="logo">Logo</string>
+    <string name="dari_months">Dari Months</string>
+    <string name="enable_dari">Enable Dari Months</string>
+    <string name="widget_notification_dashclock">Widget, notification bar and DashClock</string>
+    <string name="general">General</string>
+    <string name="widget_text_color">Widget Text Color</string>
+    <string name="select_widgets_text_color">Select custom color for widgets texts</string>
+    <string name="pray_times_calculation_setting">Pray Times Calculation Setting</string>
+    <string name="notify_date">Enable Date Notification</string>
+    <string name="enable_notify">Persistent notification for all date types, needs device restart after turning it off</string>
+    <string name="select_skin">Select a skin</string>
+    <string name="skin">Skin</string>
+    <string name="pray_methods">Calculation methods</string>
+    <string name="pray_methods_calculation">Calculation methods for pray times and Qibla compass</string>
+    <string name="altitude">Altitude</string>
+    <string name="altitude_praytime">in meter (optional)</string>
+    <string name="gps_location">Get location from GPS or network</string>
+    <string name="gps_location_help">Other options are not needed if this is possible</string>
+    <string name="internet_location_enable">Please turn on the Internet connection and Location!</string>
+    <string name="location_enable">Please turn on the Location!</string>
+    <string name="internet_enable">Please turn on the Internet connection!</string>
+    <string name="location">Location</string>
+    <string name="location_finder">Location Finder</string>
+    <string name="location_help">If none of them, specify it below</string>
+    <string name="showing_iran_time">Widgets and notifications in Iran TimeZone</string>
+    <string name="iran_time">Iran Time</string>
+    <string name="qibla_compass">Compass/Qibla</string>
+    <string name="compass">Compass</string>
+    <string name="set_location">Please first set location in the Settings…</string>
+    <string name="compass_not_found">Compass sensor not found</string>
+    <string name="whats_new">Whats New</string>
+    <string name="notification_calendar">Calendar Notification</string>
+    <string name="notification_calendar_desc">Calendar Notification Settings</string>
+
+    <string name="phone_location_required">Phone, Location and Storage Services Permission required for this app, please grant permission.</string>
+    <string name="toast_go_to_settings">Please go to settings and enable permissions!</string>
+
+    <string name="calibrate_compass_title">Calibrating compass…</string>
+    <string name="calibrate_compass_summary">The compass needs to be calibrated.\nMove away from any magnetic objects, Tilt and rotate the device back and forth on every axis as shown in the animation.</string>
+    <string name="dont_show_again_dialog">Please do not show again.</string>
+    <string name="calibrate_compass_dismiss">Dismiss</string>
+
+    <string name="with_sensor">With Sensor</string>
+    <string name="with_map">With Map</string>
+    <string name="gps_internet_desc">Please Positioning (GPS) and the internet to find the direction of Mecca turn on.\nProgram need only once to access GPS and internet and ignore this message, but if you in new location access to GPS and internet is needed again.\nif they both have activated please exit here and reopen!</string>
+    <string name="gprs_settings">GPRS</string>
+    <string name="wifi_settings">WiFi</string>
+    <string name="gps_settings">GPS</string>
+    <string name="internet_settings">Internet</string>
+    <string name="kaaba">Mecca (Kaaba)</string>
+    <string name="you_location">Your current location for prayer</string>
+
+    <string name="sobh">Morning</string>
+    <string name="t_sobh">Prosecutions Prayer Morning</string>
+    <string name="zohr">Midday</string>
+    <string name="t_zohr">Prosecutions Prayer Midday</string>
+    <string name="asr">Evening</string>
+    <string name="t_asr">Prosecutions Prayer Evening</string>
+    <string name="maghreb">Vespers</string>
+    <string name="t_maghreb">Prosecutions Prayer Vespers</string>
+    <string name="esha">Isha</string>
+    <string name="t_esha">Prosecutions Prayer Isha</string>
+
+    <string name="z1">First Zekr</string>
+    <string name="z2">Second Zekr</string>
+    <string name="z3">Third Zekr</string>
+
+    <string name="weekdays">Days</string>
+
+    <string name="td1" translatable="false">بِسْمِ اللَّهِ كَلِمَةِ الْمُعْتَصِمِينَ وَ مَقَالَةِ الْمُتَحَرِّزِينَ وَ أَعُوذُ بِاللَّهِ تَعَالَى مِنْ جَوْرِ الْجَائِرِينَ وَ كَيْدِ الْحَاسِدِينَ وَ بَغْيِ الظَّالِمِينَ وَ أَحْمَدُهُ فَوْقَ حَمْدِ الْحَامِدِينَ اللَّهُمَّ أَنْتَ الْوَاحِدُ بِلا شَرِيكٍ وَ الْمَلِكُ بِلا تَمْلِيكٍ لا تُضَادُّ فِي حُكْمِكَ وَ لا تُنَازَعُ فِي مُلْكِكَ أَسْأَلُكَ أَنْ تُصَلِّيَ عَلَى مُحَمَّدٍ عَبْدِكَ وَ رَسُولِكَ وَ أَنْ تُوزِعَنِي مِنْ شُكْرِ نُعْمَاكَ مَا تَبْلُغُ بِي غَايَةَ رِضَاكَ وَ أَنْ تُعِينَنِي عَلَى طَاعَتِكَ وَ لُزُومِ عِبَادَتِكَ وَ اسْتِحْقَاقِ مَثُوبَتِكَ بِلُطْفِ عِنَايَتِكَ وَ تَرْحَمَنِي بِصَدِّي [وَ صُدَّنِي‏] عَنْ مَعَاصِيكَ مَا أَحْيَيْتَنِي وَ تُوَفِّقَنِي لِمَا يَنْفَعُنِي مَا أَبْقَيْتَنِي وَ أَنْ تَشْرَحَ بِكِتَابِكَ صَدْرِي وَ تَحُطَّ بِتِلاوَتِهِ وِزْرِي وَ تَمْنَحَنِي السَّلامَةَ فِي دِينِي وَ نَفْسِي وَ لا تُوحِشَ بِي أَهْلَ أُنْسِي وَ تُتِمَّ إِحْسَانَكَ فِيمَا بَقِيَ مِنْ عُمْرِي كَمَا أَحْسَنْتَ فِيمَا مَضَى مِنْهُ يَا أَرْحَمَ الرَّاحِمِينَ.</string>
+    <string name="td2" translatable="false">بِسْمِ اللَّهِ الَّذِي لا أَرْجُو إِلا فَضْلَهُ وَ لا أَخْشَى إِلا عَدْلَهُ وَ لا أَعْتَمِدُ إِلا قَوْلَهُ وَ لا أُمْسِكُ إِلا بِحَبْلِهِ بِكَ أَسْتَجِيرُ يَا ذَا الْعَفْوِ وَ الرِّضْوَانِ مِنَ الظُّلْمِ وَ الْعُدْوَانِ وَ مِنْ غِيَرِ الزَّمَانِ وَ تَوَاتُرِ الْأَحْزَانِ وَ طَوَارِقِ الْحَدَثَانِ وَ مِنِ انْقِضَاءِ الْمُدَّةِ قَبْلَ التَّأَهُّبِ وَ الْعُدَّةِ وَ إِيَّاكَ أَسْتَرْشِدُ لِمَا فِيهِ الصَّلاحُ وَ الْإِصْلاحُ وَ بِكَ أَسْتَعِينُ فِيمَا يَقْتَرِنُ بِهِ النَّجَاحُ وَ الْإِنْجَاحُ وَ إِيَّاكَ أَرْغَبُ فِي لِبَاسِ الْعَافِيَةِ وَ تَمَامِهَا وَ شُمُولِ السَّلامَةِ وَ دَوَامِهَا وَ أَعُوذُ بِكَ يَا رَبِّ مِنْ هَمَزَاتِ الشَّيَاطِينِ وَ أَحْتَرِزُ بِسُلْطَانِكَ مِنْ جَوْرِ السَّلاطِينِ، فَتَقَبَّلْ مَا كَانَ مِنْ صَلاتِي وَ صَوْمِي وَ اجْعَلْ غَدِي وَ مَا بَعْدَهُ أَفْضَلَ مِنْ سَاعَتِي وَ يَوْمِي وَ أَعِزَّنِي فِي عَشِيرَتِي وَ قَوْمِي وَ احْفَظْنِي فِي يَقَظَتِي وَ نَوْمِي فَأَنْتَ اللَّهُ خَيْرٌ حَافِظا وَ أَنْتَ أَرْحَمُ الرَّاحِمِينَ اللَّهُمَّ إِنِّي أَبْرَأُ إِلَيْكَ فِي يَوْمِي هَذَا وَ مَا بَعْدَهُ مِنَ الْآحَادِ مِنَ الشِّرْكِ وَ الْإِلْحَادِ وَ أُخْلِصُ لَكَ دُعَائِي تَعَرُّضا لِلْإِجَابَةِ وَ أُقِيمُ عَلَى طَاعَتِكَ رَجَاءً لِلْإِثَابَةِ فَصَلِّ عَلَى مُحَمَّدٍ خَيْرِ خَلْقِكَ الدَّاعِي إِلَى حَقِّكَ وَ أَعِزَّنِي بِعِزِّكَ الَّذِي لا يُضَامُ وَ احْفَظْنِي بِعَيْنِكَ الَّتِي لا تَنَامُ وَ اخْتِمْ بِالانْقِطَاعِ إِلَيْكَ أَمْرِي وَ بِالْمَغْفِرَةِ عُمْرِي إِنَّكَ أَنْتَ الْغَفُورُ الرَّحِيمُ.</string>
+    <string name="td3" translatable="false">الْحَمْدُ لِلَّهِ الَّذِي لَمْ يُشْهِدْ أَحَدا حِينَ فَطَرَ السَّمَاوَاتِ وَ الْأَرْضَ وَ لا اتَّخَذَ مُعِينا حِينَ بَرَأَ النَّسَمَاتِ لَمْ يُشَارَكْ فِي الْإِلَهِيَّةِ وَ لَمْ يُظَاهَرْ فِي الْوَحْدَانِيَّةِ كَلَّتِ الْأَلْسُنُ عَنْ غَايَةِ صِفَتِهِ وَ الْعُقُولُ عَنْ كُنْهِ مَعْرِفَتِهِ وَ تَوَاضَعَتِ الْجَبَابِرَةُ لِهَيْبَتِهِ وَ عَنَتِ الْوُجُوهُ لِخَشْيَتِهِ وَ انْقَادَ كُلُّ عَظِيمٍ لِعَظَمَتِهِ فَلَكَ الْحَمْدُ مُتَوَاتِرا مُتَّسِقا وَ مُتَوَالِيا مُسْتَوْسِقا [مُسْتَوْثِقا] وَ صَلَوَاتُهُ عَلَى رَسُولِهِ أَبَدا وَ سَلامُهُ دَائِما سَرْمَدا اللَّهُمَّ اجْعَلْ أَوَّلَ يَوْمِي هَذَا صَلاحا وَ أَوْسَطَهُ فَلاحا وَ آخِرَهُ نَجَاحا، وَ أَعُوذُ بِكَ مِنْ يَوْمٍ أَوَّلُهُ فَزَعٌ وَ أَوْسَطُهُ جَزَعٌ وَ آخِرُهُ وَجَعٌ اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِكُلِّ نَذْرٍ نَذَرْتُهُ وَ كُلِّ وَعْدٍ وَعَدْتُهُ وَ كُلِّ عَهْدٍ عَاهَدْتُهُ ثُمَّ لَمْ أَفِ بِهِ وَ أَسْأَلُكَ فِي مَظَالِمِ عِبَادِكَ عِنْدِي فَأَيُّمَا عَبْدٍ مِنْ عَبِيدِكَ أَوْ أَمَةٍ مِنْ إِمَائِكَ كَانَتْ لَهُ قِبَلِي مَظْلِمَةٌ ظَلَمْتُهَا إِيَّاهُ فِي نَفْسِهِ أَوْ فِي عِرْضِهِ أَوْ فِي مَالِهِ أَوْ فِي أَهْلِهِ وَ وَلَدِهِ أَوْ غِيبَةٌ اغْتَبْتُهُ بِهَا أَوْ تَحَامُلٌ عَلَيْهِ بِمَيْلٍ أَوْ هَوًى أَوْ أَنَفَةٍ أَوْ حَمِيَّةٍ أَوْ رِيَاءٍ أَوْ عَصَبِيَّةٍ غَائِبا كَانَ أَوْ شَاهِدا وَ حَيّا كَانَ أَوْ مَيِّتا فَقَصُرَتْ يَدِي وَ ضَاقَ وُسْعِي عَنْ رَدِّهَا إِلَيْهِ وَ التَّحَلُّلِ مِنْهُ، فَأَسْأَلُكَ يَا مَنْ يَمْلِكُ الْحَاجَاتِ وَ هِيَ مُسْتَجِيبَةٌ لِمَشِيَّتِهِ وَ مُسْرِعَةٌ إِلَى إِرَادَتِهِ أَنْ تُصَلِّيَ عَلَى مُحَمَّدٍ وَ آلِ مُحَمَّدٍ وَ أَنْ تُرْضِيَهُ عَنِّي بِمَا [بِمَ‏] شِئْتَ وَ تَهَبَ لِي مِنْ عِنْدِكَ رَحْمَةً إِنَّهُ لا تَنْقُصُكَ الْمَغْفِرَةُ وَ لا تَضُرُّكَ الْمَوْهِبَةُ يَا أَرْحَمَ الرَّاحِمِينَ اللَّهُمَّ أَوْلِنِي فِي كُلِّ يَوْمِ إِثْنَيْنِ نِعْمَتَيْنِ مِنْكَ ثِنْتَيْنِ سَعَادَةً فِي أَوَّلِهِ بِطَاعَتِكَ وَ نِعْمَةً فِي آخِرِهِ بِمَغْفِرَتِكَ يَا مَنْ هُوَ الْإِلَهُ وَ لا يَغْفِرُ الذُّنُوبَ سِوَاهُ.</string>
+    <string name="td4" translatable="false">الْحَمْدُ لِلَّهِ وَ الْحَمْدُ حَقُّهُ كَمَا يَسْتَحِقُّهُ حَمْدا كَثِيرا وَ أَعُوذُ بِهِ مِنْ شَرِّ نَفْسِي إِنَّ النَّفْسَ لَأَمَّارَةٌ بِالسُّوءِ إِلا مَا رَحِمَ رَبِّي وَ أَعُوذُ بِهِ مِنْ شَرِّ الشَّيْطَانِ الَّذِي يَزِيدُنِي ذَنْبا إِلَى ذَنْبِي وَ أَحْتَرِزُ بِهِ مِنْ كُلِّ جَبَّارٍ فَاجِرٍ وَ سُلْطَانٍ جَائِرٍ وَ عَدُوٍّ قَاهِرٍ اللَّهُمَّ اجْعَلْنِي مِنْ جُنْدِكَ فَإِنَّ جُنْدَكَ هُمُ الْغَالِبُونَ وَ اجْعَلْنِي مِنْ حِزْبِكَ فَإِنَّ حِزْبَكَ هُمُ الْمُفْلِحُونَ، وَ اجْعَلْنِي مِنْ أَوْلِيَائِكَ فَإِنَّ أَوْلِيَاءَكَ لا خَوْفٌ عَلَيْهِمْ وَ لا هُمْ يَحْزَنُونَ اللَّهُمَّ أَصْلِحْ لِي دِينِي فَإِنَّهُ عِصْمَةُ أَمْرِي وَ أَصْلِحْ لِي آخِرَتِي فَإِنَّهَا دَارُ مَقَرِّي وَ إِلَيْهَا مِنْ مُجَاوَرَةِ اللِّئَامِ مَفَرِّي وَ اجْعَلِ الْحَيَاةَ زِيَادَةً لِي فِي كُلِّ خَيْرٍ وَ الْوَفَاةَ رَاحَةً لِي مِنْ كُلِّ شَرٍ اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ خَاتَمِ النَّبِيِّينَ ، وَ تَمَامِ عِدَّةِ الْمُرْسَلِينَ وَ عَلَى آلِهِ الطَّيِّبِينَ الطَّاهِرِينَ وَ أَصْحَابِهِ الْمُنْتَجَبِينَ وَ هَبْ لِي فِي الثُّلَثَاءِ ثَلاثا لا تَدَعْ لِي ذَنْبا إِلا غَفَرْتَهُ وَ لا غَمّا إِلا أَذْهَبْتَهُ وَ لا عَدُوّا إِلا دَفَعْتَهُ بِبِسْمِ اللَّهِ خَيْرِ الْأَسْمَاءِ بِسْمِ اللَّهِ رَبِّ الْأَرْضِ وَ السَّمَاءِ أَسْتَدْفِعُ كُلَّ مَكْرُوهٍ أَوَّلُهُ سَخَطُهُ وَ أَسْتَجْلِبُ كُلَّ مَحْبُوبٍ أَوَّلُهُ رِضَاهُ فَاخْتِمْ لِي مِنْكَ بِالْغُفْرَانِ يَا وَلِيَّ الْإِحْسَان.</string>
+    <string name="td5" translatable="false">الْحَمْدُ لِلَّهِ الَّذِي جَعَلَ اللَّيْلَ لِبَاسا وَ النَّوْمَ سُبَاتا وَ جَعَلَ النَّهَارَ نُشُورا لَكَ الْحَمْدُ أَنْ بَعَثْتَنِي مِنْ مَرْقَدِي وَ لَوْ شِئْتَ جَعَلْتَهُ سَرْمَدا حَمْدا دَائِما لا يَنْقَطِعُ أَبَدا وَ لا يُحْصِي لَهُ الْخَلائِقُ عَدَدا اللَّهُمَّ لَكَ الْحَمْدُ أَنْ خَلَقْتَ فَسَوَّيْتَ وَ قَدَّرْتَ وَ قَضَيْتَ وَ أَمَتَّ وَ أَحْيَيْتَ وَ أَمْرَضْتَ وَ شَفَيْتَ وَ عَافَيْتَ وَ أَبْلَيْتَ وَ عَلَى الْعَرْشِ اسْتَوَيْتَ وَ عَلَى الْمُلْكِ احْتَوَيْتَ أَدْعُوكَ دُعَاءَ مَنْ ضَعُفَتْ وَسِيلَتُهُ وَ انْقَطَعَتْ حِيلَتُهُ وَ اقْتَرَبَ أَجَلُهُ ، وَ تَدَانَى فِي الدُّنْيَا أَمَلُهُ وَ اشْتَدَّتْ إِلَى رَحْمَتِكَ فَاقَتُهُ وَ عَظُمَتْ لِتَفْرِيطِهِ حَسْرَتُهُ وَ كَثُرَتْ زَلَّتُهُ وَ عَثْرَتُهُ وَ خَلُصَتْ لِوَجْهِكَ تَوْبَتُهُ فَصَلِّ عَلَى مُحَمَّدٍ خَاتَمِ النَّبِيِّينَ وَ عَلَى أَهْلِ بَيْتِهِ الطَّيِّبِينَ الطَّاهِرِينَ وَ ارْزُقْنِي شَفَاعَةَ مُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ وَ لا تَحْرِمْنِي صُحْبَتَهُ إِنَّكَ أَنْتَ أَرْحَمُ الرَّاحِمِينَ اللَّهُمَّ اقْضِ لِي فِي الْأَرْبَعَاءِ أَرْبَعا اجْعَلْ قُوَّتِي فِي طَاعَتِكَ وَ نَشَاطِي فِي عِبَادَتِكَ وَ رَغْبَتِي فِي ثَوَابِكَ وَ زُهْدِي فِيمَا يُوجِبُ لِي أَلِيمَ عِقَابِكَ إِنَّكَ لَطِيفٌ لِمَا تَشَاءُ.</string>
+    <string name="td6" translatable="false">الْحَمْدُ لِلَّهِ الَّذِي أَذْهَبَ اللَّيْلَ مُظْلِما بِقُدْرَتِهِ وَ جَاءَ بِالنَّهَارِ مُبْصِرا بِرَحْمَتِهِ وَ كَسَانِي ضِيَاءَهُ وَ أَنَا فِي نِعْمَتِهِ اللَّهُمَّ فَكَمَا أَبْقَيْتَنِي لَهُ فَأَبْقِنِي لِأَمْثَالِهِ وَ صَلِّ عَلَى النَّبِيِّ مُحَمَّدٍ وَ آلِهِ وَ لا تَفْجَعْنِي فِيهِ وَ فِي غَيْرِهِ مِنَ اللَّيَالِي وَ الْأَيَّامِ بِارْتِكَابِ الْمَحَارِمِ وَ اكْتِسَابِ الْمَآثِمِ وَ ارْزُقْنِي خَيْرَهُ وَ خَيْرَ مَا فِيهِ وَ خَيْرَ مَا بَعْدَهُ وَ اصْرِفْ عَنِّي شَرَّهُ وَ شَرَّ مَا فِيهِ وَ شَرَّ مَا بَعْدَهُ اللَّهُمَّ إِنِّي بِذِمَّةِ الْإِسْلامِ أَتَوَسَّلُ إِلَيْكَ وَ بِحُرْمَةِ الْقُرْآنِ أَعْتَمِدُ عَلَيْكَ وَ بِمُحَمَّدٍ الْمُصْطَفَى صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ أَسْتَشْفِعُ لَدَيْكَ ، فَاعْرِفِ اللَّهُمَّ ذِمَّتِيَ الَّتِي رَجَوْتُ بِهَا قَضَاءَ حَاجَتِي يَا أَرْحَمَ الرَّاحِمِينَ اللَّهُمَّ اقْضِ لِي فِي الْخَمِيسِ خَمْسا لا يَتَّسِعُ لَهَا إِلا كَرَمُكَ وَ لا يُطِيقُهَا إِلا نِعَمُكَ سَلامَةً أَقْوَى بِهَا عَلَى طَاعَتِكَ وَ عِبَادَةً أَسْتَحِقُّ بِهَا جَزِيلَ مَثُوبَتِكَ وَ سَعَةً فِي الْحَالِ مِنَ الرِّزْقِ الْحَلالِ وَ أَنْ تُؤْمِنَنِي فِي مَوَاقِفِ الْخَوْفِ بِأَمْنِكَ وَ تَجْعَلَنِي مِنْ طَوَارِقِ الْهُمُومِ وَ الْغُمُومِ فِي حِصْنِكَ وَ صَلِّ عَلَى مُحَمَّدٍ وَ آلِ مُحَمَّدٍ وَ اجْعَلْ تَوَسُّلِي بِهِ شَافِعا يَوْمَ الْقِيَامَةِ نَافِعا إِنَّكَ أَنْتَ أَرْحَمُ الرَّاحِمِينَ.</string>
+    <string name="td7" translatable="false">الْحَمْدُ لِلَّهِ الْأَوَّلِ قَبْلَ الْإِنْشَاءِ وَ الْإِحْيَاءِ وَ الْآخِرِ بَعْدَ فَنَاءِ الْأَشْيَاءِ الْعَلِيمِ الَّذِي لا يَنْسَىٰ مَنْ ذَكَرَهُ وَ لا يَنْقُصُ مَنْ شَكَرَهُ وَ لا يَخِيبُ مَنْ دَعَاهُ وَ لا يَقْطَعُ رَجَاءَ مَنْ رَجَاهُ اللَّهُمَّ إِنِّي أُشْهِدُكَ وَ كَفَىٰ بِكَ شَهِيداً وَ أُشْهِدُ جَمِيعَ مَلائِكَتِكَ وَ سُكَّانَ سَمَاوَاتِكَ وَ حَمَلَةَ عَرْشِكَ وَ مَنْ بَعَثْتَ مِنْ أَنْبِيَائِكَ وَ رُسُلِكَ وَ أَنْشَأْتَ مِنْ أَصْنَافِ خَلْقِكَ أَنِّي أَشْهَدُ أَنَّكَ أَنْتَ اللَّهُ لا إِلَهَ إِلا أَنْتَ، وَحْدَكَ لا شَرِيكَ لَكَ وَ لا عَدِيلَ وَ لا خُلْفَ لِقَوْلِكَ وَ لا تَبْدِيلَ وَ أَنَّ مُحَمَّدا صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ عَبْدُكَ وَ رَسُولُكَ أَدَّىٰ مَا حَمَّلْتَهُ إِلَى الْعِبَادِ وَ جَاهَدَ فِي اللَّهِ عَزَّ وَ جَلَّ حَقَّ الْجِهَادِ وَ أَنَّهُ بَشَّرَ بِمَا هُوَ حَقٌّ مِنَ الثَّوَابِ وَ أَنْذَرَ بِمَا هُوَ صِدْقٌ مِنَ الْعِقَابِ اللَّهُمَّ ثَبِّتْنِي عَلَىٰ دِينِكَ مَا أَحْيَيْتَنِي ، وَ لا تُزِغْ قَلْبِي بَعْدَ إِذْ هَدَيْتَنِي وَ هَبْ لِي مِنْ لَدُنْكَ رَحْمَةً إِنَّكَ أَنْتَ الْوَهَّابُ صَلِّ عَلَى مُحَمَّدٍ وَ عَلَىٰ آلِ مُحَمَّدٍ وَ اجْعَلْنِي مِنْ أَتْبَاعِهِ وَ شِيعَتِهِ وَ احْشُرْنِي فِي زُمْرَتِهِ وَ وَفِّقْنِي لِأَدَاءِ فَرْضِ الْجُمُعَاتِ وَ مَا أَوْجَبْتَ عَلَيَّ فِيهَا مِنَ الطَّاعَاتِ وَ قَسَمْتَ لِأَهْلِهَا مِنَ الْعَطَاءِ فِي يَوْمِ الْجَزَاءِ إِنَّكَ أَنْتَ الْعَزِيزُ الْحَكِيم.</string>
+
+    <string name="month_names">Month Names</string>
+    <string name="calendar_font">Calendar Font</string>
+    <string name="application_language">Application Language</string>
+    <string name="language">Language</string>
+    <string name="calendar_language">Calendar Language</string>
+    <string name="calendar_language_summary">The language to show the month and day names in</string>
+    <string name="version">Version</string>
+    <string name="calendar_font_summary">Change the font for the calendar</string>
+    <string name="athan">Athan</string>
+    <string name="athan_alarm_summary">Prayers to trigger the alarm for</string>
+    <string name="athan_alarm">Athan Alarm</string>
+    <string name="athan_sound">Athan Sound</string>
+    <string name="match_system">Match System</string>
+    <string name="athan_volume_summary">Set the volume for the alarm</string>
+    <string name="athan_volume">Athan Volume</string>
+    <string name="tap_to_stop_athan">Tap to stop</string>
+    <string name="playing_athan">Playing Athan</string>
+    <string name="athan_disabled_summary">To set the Athan alarm, choose a location or enter the coordinates above</string>
+    <string name="athan_gap">Athan Gap</string>
+    <string name="athan_gap_summary">How long ahead of the Athan should the alarm be triggered (in minutes)</string>
+    <string name="closeDrawer">Close</string>
+    <string name="openDrawer">Open</string>
+    <string name="azan1">Fajr</string>
+    <string name="azan2">Dhuhr</string>
+    <string name="azan3">Asr</string>
+    <string name="azan4">Maghrib</string>
+    <string name="azan5">Isha</string>
+    <string name="aftab1">Sunrise</string>
+    <string name="aftab2">Sunset</string>
+    <string name="aftab3">Midnight</string>
+    <string name="owghat">Pray times</string>
+    <string name="events">Events</string>
+    <string name="today">Today</string>
+    <string name="select_type_date">Select date type</string>
+    <string name="year">Year</string>
+    <string name="mount">Month</string>
+    <string name="day">Day</string>
+    <string name="select_year">Select year</string>
+    <string name="select_mount">Select month</string>
+    <string name="select_day">Select day</string>
+    <string name="date_exception">The date not entered. wait to release new version!</string>
+    <string name="in_city_time">in</string>
+    <string name="islamic_offset">Islamic offset</string>
+    <string name="islamic_offset_summary">Back to calendar reform</string>
+
+    <string name="copyright" translatable="false">Copyright © WWW.DIMYADI.IR</string>
+
+    <string name="taghibatnamaz">Prosecutions prayer</string>
+    <string name="tfajr" translatable="false">اَللّهُمَّ فاطِرَ السَّمواتِ وَالاَْرْضِ عالِمَ الْغَيْبِ وَالشَّهادَةِ الرَّحْمنَ الرَّحيمَ اَعْهَدُ اِلَيْكَ فى هذِهِ الدُّنْيا اَنَّكَ اَنْتَ اللَّهُ لا اِلهَ اِلاّ اَنْتَ وَحْدَكَ لا شَريكَ لَكَ وَاَنَّ مُحَمَّداً صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ عَبْدُكَ وَرَسُولُكَ اَللّهُمَّ فَصَلِّ عَلى مُحَمَّدٍ وَآلِهِ وَلا تَكِلْنى اِلى نَفْسى طَرْفَةَ عَيْنٍ اَبَداً وَلا اِلى اَحَدٍ مِنْ خَلْقِكَ فَاِنَّكَ اِنْ وَكَلْتَنى اِلَيْها تُباعِدْنى مِنَ الْخَيْرِ وَتُقَرِّبْنى مِنَ الشَّرِّ اَىْ رَبِّ لا اَثِقُ اِلاّ بِرَحْمَتِكَ فِصَلِّ عَلى مُحَمَّدٍ وَآلِهِ الطَّيِّبينَ وَاجْعَلْ لى عِنْدَكَ عَهْداً تُؤَدّيهِ اِلَىَّ يَوْمَ الْقِيمَةِ اِنَّكَ لا تُخْلِفُ الْميعادَ</string>
+    <string name="tdhuhr" translatable="false">لاَ إِلَهَ إِلاَّ اللَّهُ الْعَظِيمُ الْحَلِيمُ لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ الْعَرْشِ الْكَرِيمُ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ اللَّهُمَّ إِنِّي أَسْأَلُكَ مُوجِبَاتِ رَحْمَتِكَ وَ عَزَائِمَ مَغْفِرَتِكَ وَ الْغَنِيمَةَ مِنْ كُلِّ بِرٍّ وَ السَّلاَمَةَ مِنْ كُلِّ إِثْمٍ‏ اللَّهُمَّ لاَ تَدَعْ لِي ذَنْباً إِلاَّ غَفَرْتَهُ وَ لاَ هَمّاً إِلاَّ فَرَّجْتَهُ وَ لاَ سُقْماً إِلاَّ شَفَيْتَهُ‏ وَ لاَ عَيْباً إِلاَّ سَتَرْتَهُ وَ لاَ رِزْقاً إِلاَّ بَسَطْتَهُ وَ لاَ خَوْفاً إِلاَّ آمَنْتَهُ وَ لاَ سُوءاًإِلاَّ صَرَفْتَهُ وَ لاَ حَاجَةً هِيَ لَكَ رِضًا وَ لِيَ فِيهَا صَلاَحٌ إِلاَّ قَضَيْتَهَا يَا أَرْحَمَ الرَّاحِمِينَ آمِينَ رَبَّ الْعَالَمِينَ‏</string>
+    <string name="tasr" translatable="false">أَسْتَغْفِرُ اللَّهَ الَّذِي لاَ إِلَهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ الرَّحْمَنُ الرَّحِيمُ ذُو (ذَا) الْجَلاَلِ وَ الْإِكْرَامِ‏ وَ أَسْأَلُهُ أَنْ يَتُوبَ عَلَيَّ تَوْبَةَ عَبْدٍ ذَلِيلٍ خَاضِعٍ فَقِيرٍ بَائِسٍ مِسْكِينٍ مُسْتَكِينٍ مُسْتَجِيرٍ لاَ يَمْلِكُ لِنَفْسِهِ نَفْعاً وَ لاَ ضَرّاً وَ لاَ مَوْتاً وَ لاَ حَيَاةً وَ لاَ نُشُوراً</string>
+    <string name="tmaghrib" translatable="false">اَللَّهُمَّ إِنِّي أَسْأَلُكَ مُوجِبَاتِ رَحْمَتِكَ وَ عَزَائِمَ مَغْفِرَتِكَ وَ النَّجَاةَ مِنَ النَّارِ وَ مِنْ كُلِّ بَلِيَّةٍ وَ الْفَوْزَ بِالْجَنَّةِ وَ الرِّضْوَانَ (الرِّضْوَانِ) فِي دَارِ السَّلاَمِ وَ جِوَارَ (جِوَارِ) نَبِيِّكَ مُحَمَّدٍ عَلَيْهِ وَ آلِهِ السَّلاَمُ‏ اللَّهُمَّ مَا بِنَا مِنْ نِعْمَةٍ فَمِنْكَ لاَ إِلَهَ إِلاَّ أَنْتَ أَسْتَغْفِرُكَ وَ أَتُوبُ إِلَيْكَ‏</string>
+    <string name="tisha" translatable="false">اللَّهُمَّ إِنَّهُ لَيْسَ لِي عِلْمٌ بِمَوْضِعِ رِزْقِي وَ إِنَّمَا أَطْلُبُهُ بِخَطَرَاتٍ تَخْطُرُ عَلَى قَلْبِي فَأَجُولُ فِي طَلَبِهِ الْبُلْدَانَ فَأَنَا فِيمَا أَنَا طَالِبٌ كَالْحَيْرَانِ لا أَدْرِي أَ فِي سَهْلٍ هُوَ أَمْ فِي جَبَلٍ أَمْ فِي أَرْضٍ أَمْ فِي سَمَاءٍ أَمْ فِي بَرٍّ أَمْ فِي بَحْرٍ وَ عَلَى يَدَيْ مَنْ وَ مِنْ قِبَلِ مَنْ وَ قَدْ عَلِمْتُ أَنَّ عِلْمَهُ عِنْدَكَ وَ أَسْبَابَهُ بِيَدِكَ وَ أَنْتَ الَّذِي تَقْسِمُهُ بِلُطْفِكَ وَ تُسَبِّبُهُ بِرَحْمَتِكَ اللَّهُمَّ فَصَلِّ عَلَى مُحَمَّدٍ وَ آلِهِ وَ اجْعَلْ يَا رَبِّ رِزْقَكَ لِي وَاسِعاً وَ مَطْلَبَهُ سَهْلاً وَ مَأْخَذَهُ قَرِيباً وَ لا تُعَنِّنِي بِطَلَبِ مَا لَمْ تُقَدِّرْ لِي فِيهِ رِزْقاً فَإِنَّكَ غَنِيٌّ عَنْ عَذَابِي [عَنَائِي ] وَ أَنَا فَقِيرٌ إِلَى رَحْمَتِكَ فَصَلِّ عَلَى مُحَمَّدٍ وَ آلِهِ وَ جُدْ عَلَى عَبْدِكَ بِفَضْلِكَ إِنَّكَ ذُو فَضْلٍ عَظِيمٍ</string>
+    <string name="none" translatable="false"> </string>
+
+    <string name="titlenamaz">Supererogatory prayers</string>
+    <string name="namazsobh">Morning prayer</string>
+    <string name="namazzuhr">Zohr  prayer</string>
+    <string name="namazasr">Asr  prayer</string>
+    <string name="namazmaghrib">Maghrib  prayer</string>
+    <string name="namazishaa">Isha prayer</string>
+    <string name="nafelesobh">Supererogatory Morning</string>
+    <string name="nafelezohr">Supererogatory Zohr</string>
+    <string name="nafeleasr">Supererogatory Asr</string>
+    <string name="nafelemaghreb">Supererogatory Maghrib</string>
+    <string name="nafeleesha">Supererogatory Isha</string>
+    <string name="nafeleshab">Supererogatory night</string>
+    <string name="ghazaroze">Ironically Lent</string>
+
+        <string name="hadith">
+It has been narrated from Imam Sadiq:«مَنْ سَبَّحَ اللَّهَ فِى دُبُرِ الْفَرِیضَةِ تَسْبِیحَ فاطِمَةَ الْمِائَةَ مَرَّةً وَاَتْبَعَها بِلا اِلهَ اِلَّا اللَّهُ مَرَّةً غُفِرَ لَهُ؛ Anyone following the obligatory prayers, the Tasbihat Fatima a hundred times to praise God, and then once "La ilaha illa Allah," say, Blessed.»    </string>
+    <string name="la_elah_ella_allah">
+«There is none worthy of worship except Allah, He has no partner. To Him is sovereignty and perfect praise and He is over all things Competent»    </string>
+    <string name="zekr_alert">One of the Tasbihat Fatima Zahra (SA) was completed.</string>
+    <string-array name="azkar_list" translatable="false">
+        <item>الله أكبر</item>
+        <item>الحمد لله</item>
+        <item>سبحان الله</item>
+    </string-array>
+    <integer-array name="num_list">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <string name="done">All praise this day</string>
+    <string name="reset">Reset</string>
+    <string name="return_to_current_day">Back to today</string>
+    <string name="after_salah">After prayer</string>
+    <string name="gheer_mohadad">Counter</string>
+
+    <string name="mygod" translatable="false">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</string>
+
+    <string-array name="calendar_type">
+        <item>Persian Calendar</item>
+        <item>Islamic Calendar</item>
+        <item>Gregorian</item>
+    </string-array>
+
+    <string name="count">Count</string>
+    <string name="start">Start counting</string>
+    <string name="set">End Of Count</string>
+    <string name="zero">0</string>
+    <string name="sound">Sound</string>
+    <string name="sound_off">Sound off</string>
+    <string name="sound_on">Sound on</string>
+    <string name="vib">Vibration</string>
+    <string name="vib_on">Vibration on</string>
+    <string name="vib_off">Vibration off</string>
+    <string name="zekrmore">Counting was determined, would you continue?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="dayofweek1">SATURDAY</string>
+    <string name="dayofweek2">SUNDAY</string>
+    <string name="dayofweek3">MONDAY</string>
+    <string name="dayofweek4">TUESDAY</string>
+    <string name="dayofweek5">WEDNESDAY</string>
+    <string name="dayofweek6">THURSDAY</string>
+    <string name="dayofweek7">FRIDAY</string>
+
+    <string name="mailto" translatable="false">mahdi2006d@gmail.com</string>
+    <string name="noclient">There are no email clients installed</string>
+    <string name="persian_calendar">Persian Calendar</string>
+    <string name="whats_new_sum">You can see recent changes.</string>
+    <string name="support_development">Support Development</string>
+    <string name="report_bug">Report bug</string>
+    <string name="report_bug_sum">Report bug or request new features.</string>
+    <string name="sendMail">E-Mail</string>
+    <string name="sendMail_sum">Send me an E-Mail!</string>
+    <string name="translate">Translate</string>
+    <string name="translate_sum">Help us to translate this App in more Languages.</string>
+    <string name="rate">Rate</string>
+    <string name="rate_desc">Leave us positive rating if you like Persian Calendar.</string>
+    <string name="install_app">Please install the MyKet app.</string>
+    <string name="donateDesc">If you feel like to support the Developer some money, click here</string>
+    <string name="donateDlg">This is just a support for the Developer :)\nAlhamdulillah, i do not need this money, but if you feel like to support me, thank you&#8230;</string>
+    <string name="donate">Donate</string>
+    <string name="donate_sum">Consider donating us something to support development.</string>
+    <string name="donate_thanks">Thanks for your donation!</string>
+    <string name="donate_problem_setup">Problem setting up in-app billing: </string>
+    <string name="donate_error_another_progress">Error querying inventory. Another async operation in progress.</string>
+    <string name="donate_failed_one">Failed to query inventory: </string>
+    <string name="donate_error_launch_another_progress">Error launching donate flow. Another async operation in progress.</string>
+    <string name="donate_error">Error donating: </string>
+    <string name="donate_error_verification">Error donating. Authenticity verification failed.</string>
+    <string name="donate_error_pm">Error: </string>
+    <string name="supporters">Sponsors of Persian Calendar</string>
+    <string name="license">License</string>
+    <string name="license_sum">Check Apache License, Version 2.0 license terms used on Persian Calendar.</string>
+    <string name="source_code_org">Base Source</string>
+    <string name="source_code_sum">Check Base of Source used.</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="source">Source</string>
+
+    <string name="please_wait">Updating, Please patient …</string>
+    <string name="server_error">We\'re sorry, a server error occurred.</string>
+
+    <string name="date_copied_clipboard">Copied to clipboard</string>
+    <string name="stop">Stop</string>
+    <string name="goto_date">Go to date</string>
+    <string name="go_today">Today</string>
+    <string name="select">Select</string>
+    <string name="pleasewaitgps">Please before enable GPS and connected to internet.\nOtherwise quit the application and enable GPS and connect to internet and Re-enter this section.\nNow wait…\nIf nothing appeared after one minute you probably should try other options!</string>
+    <string name="pleasewaitgpsDialog">Now wait…\nIf nothing appeared after one minute you probably should try other options in Settings!</string>
+    <string name="holidaysIncompletenessWarning">Holidays of the selected year may not be complete and reliable.</string>
+    <string name="shouldBeUpdated">Holidays of the selected year may not be complete and reliable. Consider an update for the app, if exists.</string>
+
+    <string-array name="accordion_sections">
+        <item>Why in the Persian Calendar Athan not play or later play?</item>
+        <item>Why Persian Calendar Killed and not show in notification?</item>
+        <item>Sometimes date is a difference in islamic calendar?</item>
+        <item>My city is not found in default list, How do determine my position?</item>
+        <item>You can add reminders in Google Calendar or other Calendars?</item>
+        <item>Device is connected to the Internet but sometimes update is late or not done in loading?</item>
+        <item>What is to be done access to Phone, Location, SMS and Storage for Persian Calendar?</item>
+        <item>In Compass with sensor what\'s yellow circle and black and white circle and in Compass with map red line what is the meaning?</item>
+        <item>How calculate one fifth of capital and whats E in one fifth calculator?</item>
+        <item>How work will in Persian Calendar?</item>
+    </string-array>
+    <string name="why_0_0">• In some models of mobile phones have a feature "Power Saving", To fix this problem into the device battery settings and disable any restriction for the Persian Calendar.\n</string>
+    <string name="why_0_1">• Make sure your device\'s clock is set based on the official clock, Otherwise into the device settings and set the date and time, turn off automatic mode and choose the time zone Iran or Tehran.\n</string>
+    <string name="why_0_2">• If the athan play later to reduce it, Please enable GPS and Internet start Persian Calendar into (Settings> Get location from GPS or network) wait to done and exit settings now calculate prayer times based on your current location.\n</string>
+    <string name="why_1_0">• If use the Smart Manager app or similar applications in the App Store\'s like Task Manager, Please remove Persian Calendar from the list of this apps.\n</string>
+    <string name="why_1_1">• Android 6 or new versions is feature for improved battery life the name is Doze, please remove Persian Calendar from the list of Doze feature.\n</string>
+    <string name="why_2_0">• Persian Calendar auto fix the problem if connecting to the Internet and run calendar to load from the server for correct the Islamic Calendar automatically.\n</string>
+    <string name="why_2_1">• Because displacement in the months of Islamic Calendar interference 1 or 2 days, To fix this into (Settings> Islamic Calendar) set the correct amount.\n</string>
+    <string name="why_3_0">• Please enable GPS and internet, start Persian Calendar into (Settings> Get location from GPS or network) and wait until the search for your current location to be done exit from settings.\n</string>
+    <string name="why_4_0">• If you need to add a reminder you can search day for remind in Persian Calendar and with long touch on it you get to device calendar for add reminder.\n</string>
+    <string name="why_5_0">• It may slow down the speed of Internet. Try use high-quality and high-speed Internet provider.\n</string>
+    <string name="why_5_1">• Server may be difficult and important reason for the high traffic load on the server and for a short time service unavailable. Allow reduced traffic to a server and the server returns to previous state.\n</string>
+    <string name="why_5_2">• If you don\'t like to update Persian Calendar settings for fix potential errors, You can disable it in the settings.\n</string>
+    <string name="why_6_0">• Location Access: The Compass and Qibla Compass is required for access Persian Calendar to the geographical location and Qibla direction of your current location. Also handy to your current location in settings to calculate prayer times.\n</string>
+    <string name="why_6_1">• Phone Access: This access makes Persian Calendar Athan while you use voice call not play.\n</string>
+    <string name="why_6_2">• Storage Access: The access to display image on the splash for save it and not reload from the server again.\n</string>
+    <string name="why_6_3">• SMS Access: This is the access to read incoming SMS. Persian Calendar display your will even when the device is locked.\n</string>
+    <string name="why_6_4">• The explanations mentioned all access to the Persian Calendar is required and if one of them is not approved in the program will be interrupted.\n</string>
+    <string name="why_7_0">• In Compass with sensor yellow circle is position of the sun and black and white circle is position of the moon.\n</string>
+    <string name="why_7_1">• The red line showing the Qibla direction.\n</string>
+    <string name="why_8_0">• In this section, you can calculate the one fifth amount of your capital into different categories, you should adding a capital to the rial.\n</string>
+    <string name="why_8_1">• Due to the limitations in displaying the number of digits, the numbers are much larger or much smaller than the scientific symbol number. This type of display is used in most computing tools for very large or very small numbers. For example, the calculator display the number 1.23456e+14, which is 123.456 billion. That is, in the other words, the preceding E is multiplied by 10 and to the power of 14.\n</string>
+    <string name="why_9_0">• My God grant you a lifetime. But in case of necessity, you may need to provide your will with all close relatives in different ways. By this section, you can easily do this.\n</string>
+    <string name="why_9_1">• You can read the will in two ways.\nThe first method: You can see the will by writing the code *#*#506#*#* from left to right in dialer. But in some brands like samsungs this may not work, so use the second method.\nThe second method: You can also see the will by send SMS with 506 content in latin.\n</string>
+    <string name="why_9_2">• You can choose an arbitrary number of 10 digits instead of the default number 506 for privacy in the settings and give the code to trust person.\n</string>
+
+    <integer-array name="accordion_visibility" translatable="false">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <string name="one_five">One fifth</string>
+    <string name="add_category">Add category</string>
+    <string name="add_capital">Add capital</string>
+    <string name="result">Result</string>
+    <string name="category_field_empty">Category field empty</string>
+    <string name="category_added">Category added</string>
+    <string name="category_deleted">Category deleted</string>
+    <string name="category_error">There was some problem</string>
+    <string name="one_five_title_error">Please enter title</string>
+    <string name="one_five_amount_error">Please enter amount</string>
+    <string name="one_five_category_error">Please select a category</string>
+    <string name="one_five_added">Capital added</string>
+    <string name="one_five_last_data_added_title">Last capital added:</string>
+    <string name="one_five_add_error">Error occurred, capital not added</string>
+    <string name="one_five_capital_edit_update">Either the capital deleted or updated</string>
+    <string name="popup_one_five_title_error">Please enter title</string>
+    <string name="popup_one_five_amount_error">Please enter amount</string>
+    <string name="popup_one_five_updated">Capital updated</string>
+    <string name="popup_one_five_update_error">Error occurred, capital not updated</string>
+    <string name="popup_one_five_deleted">Capital deleted successfully</string>
+    <string name="popup_one_five_delete__error">Error occurred, capital not deleted</string>
+    <string name="popup_one_five_">Capital one fifth</string>
+    <string name="all">All</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="result_one_five_deleted">Capital deleted successfully</string>
+    <string name="result_one_five_delete_error">Error occurred, capital not deleted</string>
+    <string name="total_capital">Total capital: </string>
+    <string name="capital_one_five">One fifth capital: </string>
+    <string name="hint_title">Title</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_amount">Amount to rials</string>
+    <string name="category">Category:</string>
+    <string name="add_new_category">New category name</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="delete_capital">Delete capital</string>
+    <string name="title">Title:</string>
+    <string name="description">Description:</string>
+    <string name="amount">Amount:</string>
+    <string name="irr">Rials</string>
+    <string name="number_limited">Hint</string>
+    <string name="number_limited_message_one">Input numbers cannot exceed more than</string>
+    <string name="number_limited_message_two">numbers.</string>
+
+    <string name="testament">Will</string>
+    <string name="please_set_title">Please provide a title to your will</string>
+    <string name="share_via">Share via</string>
+    <string name="delete_note">Delete will</string>
+    <string name="delete_note_sure">Are you sure you want delete this?</string>
+    <string name="note_not_created">Note not created..</string>
+    <string name="testament_add_error">Error occurred, will not added</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="close">Close</string>
+    <string name="cannot_delete">Will cannot be deleted!</string>
+    <string name="cannot_update">Will cannot be updated!</string>
+    <string name="will_updated">Will be updated!</string>
+    <string name="will_deleted">Will be deleted!</string>
+    <string name="deleted">deleted!</string>
+    <string name="add_testament">Add will</string>
+    <string name="write_your_will">Write your will here…</string>
+
+</resources>

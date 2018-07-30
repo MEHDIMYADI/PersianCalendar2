@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/reset"
+        android:icon="@drawable/ic_reset"
+        android:title="@string/reset"
+        app:showAsAction="ifRoom"/>
+    <!-- <group
+        android:id="@+id/tasbih_menu"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/baad_alsalah"
+            android:checked="true"
+            android:orderInCategory="1"
+            android:title="@string/after_salah"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/gheer_mohadad"
+            android:orderInCategory="2"
+            android:title="@string/gheer_mohadad"
+            app:showAsAction="never" />
+
+    </group> !-->
+</menu>

@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "ir.dimyadi.persiancalendar"
+        //changed sdk from 12 to 14 because sdk26 dont support it.
+        //minSdkVersion 12
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 20
+        versionName '1.2.0'
+        vectorDrawables.useSupportLibrary = true
+        useLibrary 'org.apache.http.legacy'
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            //added proguard-rules, because when generated signed apk some device have issue in assma elahi searchview and force closed
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation 'com.android.support:design:27.1.0'
+    implementation 'com.android.support:preference-v7:27.1.0'
+    implementation 'com.android.support:recyclerview-v7:27.1.0'
+    implementation 'com.android.support:support-annotations:27.1.0'
+    implementation 'com.android.support:support-v4:27.1.0'
+    implementation 'com.android.support:cardview-v7:27.1.0'
+    implementation 'com.google.android.gms:play-services-location:12.0.0'
+    implementation 'com.google.android.gms:play-services-maps:12.0.0'
+    implementation 'com.google.android.apps.dashclock:dashclock-api:2.0.0'
+}

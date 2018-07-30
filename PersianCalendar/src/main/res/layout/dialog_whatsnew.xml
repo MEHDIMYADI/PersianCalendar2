@@ -1,0 +1,320 @@
+<ScrollView android:id="@+id/aboutscrollview"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.LinearLayoutCompat
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/ic_app"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_WN_title"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/whats_new"
+        android:layout_marginTop="10dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_title"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="تغییرات نسخه‌ی ۱.۲.۰" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_description"
+            android:text="* تغییرات جزئی در بخش ورود به برنامه\n* رفع اشکال‌ها و موارد گزارش شده" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_title"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="تغییرات نسخه‌ی ۱.۱.۹" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_description"
+            android:text="* رفع اشکال‌ها و موارد گزارش شده" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_title"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="تغییرات نسخه‌ی ۱.۱.۸" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_description"
+            android:text="* رفع اشکال‌ها و موارد گزارش شده از سوی مایکت" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_title"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="تغییرات نسخه‌ی ۱.۱.۷" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_description"
+            android:text="* رفع مشکل نمایش Badge در اندروید ۸\n* رفع عدم نمایش خودکار تقویم در صورت خاموش و روشن نمودن دستگاه در اندروید ۸\n* افزودن دسترسی سریع به موقعیت‌یاب خودکار در صفحه نخست، بخش اوقات شرعی\n* رفع اشکال‌ها و موارد گزارش شده" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_title"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="تغییرات نسخه‌ی ۱.۱.۶" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_description"
+            android:text="* اصلاح تقوم قمری\n* بروزرسانی وقایع سال ۹۷\n* اصلاح گرافیکی\n* رفع اشکال‌ها و موارد گزارش شده" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_title"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="تغییرات نسخه‌ی ۱.۱.۵" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_description"
+            android:text="* رفع مشکل خروج اجباری (Force Close) در بخش تنظیمات\n* بروزرسانی کدها\n* رفع اشکال‌ها و موارد گزارش شده" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_title"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="تغییرات نسخه‌ی ۱.۱.۴" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_description"
+            android:text="* رفع عدم نمایش اطلاع‌رسانی تقویم در اندروید ۸\n* پشتیبانی از اندروید ۴.۱ به بعد و عدم پشتیبانی از اندروید ۴\n* پشتیبانی از اندروید ۸.۱.۰\n* رفع اشکال‌ها و موارد گزارش شده" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_title"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="تغییرات نسخه‌ی ۱.۱.۳" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_description"
+            android:text="* افزوده شدن محسابه‌گر حرفه‌ای خمس سرمایه\n* افزوده شدن وصیت‌نامه (جهت اطلاعات بیشتر به بخش راهنما رجوع کنید)\n* به‌روزرسانی کدها\n* رفع اشکال‌ها و موارد گزارش شده" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_description"
+            android:textColor="#f50707"
+            android:text="* لطفا دسترسی SMS را جهت جلوگیری از بوجود آمدن مشکلات احتمالی تایید کنید.\nجهت اطلاعات بیشتر به بخش راهنما رجوع کنید."/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_title"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="تغییرات نسخه‌ی ۱.۱.۲" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_description"
+            android:text="* اصلاح فرمول محاسبه تاریخ قمری و رفع تاریخ نادرست قمری\n* پشتیبانی از اندروید ۸\n* اصلاح فرمول محاسبه تاریخ قمری در بخش تبدیل تاریخ\n* به‌روزرسانی کدها" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_description"
+            android:textColor="#f50707"
+            android:text="* نکته: لطفا به اینترنت متصل شده و دوباره تقویم فارسی ۲ را اجرا نمایید تا به‌روزرسانی تنظیمات تقویم قمری صورت گیرد.\nدر غیر این صورت وارد بخش (تنظیمات > تنظیم تقویم اسلامی) شده و متغیر را به صِفر تغییر دهید."/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_title"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="تغییرات نسخه‌ی ۱.۱.۱" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_description"
+            android:text="* اصلاح راهنما\n* به‌روزرسانی کدها" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_title"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="تغییرات نسخه‌ی ۱.۱.۰" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_description"
+            android:text="* انتشار نسخه‌ی پایدار و بدون نقص\n* اصلاح کدهای صفحه ورود :(\n* اصلاح راهنما\n* اصلاح در زمان صوت اذان استاد موذن زاده اردبیلی\n* رفع اشکال‌ها و موارد گزارش شده" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_title"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="تغییرات نسخه‌ی ۱.۰.۹" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_description"
+            android:text="* دریافت اطلاعات تقویم قمری از سرور، جهت اصلاح عقب یا جلو بودن آن\n* افزوده شدن غیر فعال سازی به‌روزرسانی اطلاعات تقویم از سرور به‌طور خودکار در تنظیمات\n* اصلاح بخش راهنما\n* اصلاح رویدادها\n* استفاده از فونت پیش‌فرض دستگاه\n* قابل مشاهده شدن تغییرات اخیر برنامه در بخش درباره\n* رفع اشکال‌ها و موارد گزارش شده" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_description"
+            android:textColor="#f50707"
+            android:text="* لطفا دسترسی Storage را جهت جلوگیری از بوجود آمدن مشکلات احتمالی تایید کنید.\nجهت اطلاعات بیشتر به بخش راهنما رجوع کنید."/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_title"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="تغییرات نسخه‌ی ۱.۰.۸" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_description"
+            android:text="* ایجاد تغییرات در بخش منوی برنامه\n* افزوده شدن بخش راهنما برای رفع مشکلات احتمالی\n* رفع اشکال‌ها و موارد گزارش شده" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_title"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="تغییرات نسخه‌ی ۱.۰.۷" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_description"
+            android:text="* رفع مشکل تقویم اسلامی، در غیر این صورت وارد تنظیمات>تنظیم تقویم اسلامی و متغیر را بر روی ۱- تنظیم کنید\n* رفع اشکال‌ها و موارد گزارش شده" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_title"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="تغییرات نسخه‌ی ۱.۰.۶" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_WN_description"
+            android:text="* افزوده شدن قطب‌نما/قبله‌نما با نقشه توسط گوگل‌مپ\n* بهبود موقعیت‌یاب خودکار در بخش تنظیمات\n* بهبود پیام کالیبره کردن قطب‌نما \n* رفع اشکال‌ها و موارد گزارش شده" />
+
+        <android.support.v7.widget.AppCompatTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_WN_title"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="تغییرات نسخه‌ی ۱.۰.۵" />
+        <android.support.v7.widget.AppCompatTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_WN_description"
+        android:text="* بهبود بخش تعقیبات نماز\n* افزوده شدن تایید درخواست دسترسی‌های برنامه در دستگاه‌های با اندروید ۶.۰ و بالاتر\n* کاهش حجم برنامه :)\n* به‌روزرسانی و بهبود کدها\n* رفع اشکال‌ها و موارد گزارش شده" />
+
+        <android.support.v7.widget.AppCompatTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_WN_title"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="تغییرات نسخه‌ی ۱.۰.۴" />
+        <android.support.v7.widget.AppCompatTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_WN_description"
+        android:text="* حذف حالت سکوت در اذان در صورت فشردن کلیدهای صدا\n* بهبود بخش اذان‌گو\n* کاهش زمان اذان استاد موذن زاده اردبیلی\n* رفع مشکل عدم تنظیم صحیح صدای اذان\n* تغییر فونت برنامه\n* افزوده شدن رویدادهای سال ۱۳۹۶\n* رفع عدم نمایش صحیح چندین رویداد در یک روز\n* بهبود در توانایی رونوشت از تاریخ میلای، شمسی و قمری\n* بهبود بخش قطب‌نما/ قبله‌نما\n* کاهش حجم برنامه :)\n* رفع اشکال‌ها و موارد گزارش شده" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_WN_title"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="تغییرات نسخه‌ی ۱.۰.۳" />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_WN_description"
+        android:text="* تغییرات در بخش اذان‌گو جهت اطلاع رسانی دقیق در اندروید ۶.۰ و بالاتر\n* قابلیت سکوت اذان با فشردن کلیدهای صدا\n* قطع اذان‌گو در حین داشتن تماس یا پیام\n* قابلیت خروج از اذان با لمس دوبار بر روی صفحه به غیر از ناحیه تعقيبات نماز\n* رفع اشکال‌ها و موارد گزارش شده" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_WN_title"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="تغییرات نسخه‌ی ۱.۰.۲" />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_WN_description"
+        android:text="* به‌روزرسانی برنامه\n* تغییر اذان به صدای استاد موذن زاده اردبیلی\n* رفع اشکال‌ها و موارد گزارش شده" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_WN_title"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="تغییرات نسخه‌ی ۱.۰.۱" />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_WN_description"
+        android:text="* به‌روزرسانی برنامه\n* رفع اشکال‌ها و موارد گزارش شده" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_WN_title"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="تغییرات نسخه‌ی ۱.۰.۰" />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_WN_description"
+        android:text="* به‌روزرسانی برنامه\n* افزودن ویژگی‌های جدید\n* رفع اشکال‌ها و موارد گزارش شده" />
+    
+    </android.support.v7.widget.LinearLayoutCompat>
+</ScrollView>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/background_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/athan_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="36sp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:textColor="?attr/colorTextAthan"
+            android:textStyle="bold"
+            android:layout_marginTop="80dp"
+            style="@style/ShadowTextStyle"
+            android:background="@null"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/athan_name"
+            android:textColor="?attr/colorTextAthan"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            style="@style/ShadowTextStyle"
+            android:background="@null"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_taghib"
+            android:layout_above="@+id/athan_taghib"
+            android:textColor="?attr/colorTextAthan"
+            android:background="@drawable/rounded_corners_top"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center|center_horizontal"
+            style="@style/ShadowTextStyle"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/athan_taghib"
+            android:scrollbars = "vertical"
+            android:layout_width="match_parent"
+            android:layout_height="192dp"
+            android:textSize="32sp"
+            android:lineSpacingExtra="20dp"
+            android:textColor="?attr/colorTextAthan"
+            android:textStyle="bold"
+            android:gravity="center"
+            style="@style/ShadowTextStyle"
+            android:text="@string/tmaghrib"
+            android:background="@drawable/rounded_corners"
+            android:layout_above="@+id/athan_cancel_background"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners_bottom"
+        android:id="@+id/athan_cancel_background"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/athan_cancel"
+            app:srcCompat="@drawable/ic_athan_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_margin"
+            android:clickable="true"
+            app:fabSize="normal" />
+
+        </LinearLayout>
+
+        </RelativeLayout>
+</RelativeLayout>
